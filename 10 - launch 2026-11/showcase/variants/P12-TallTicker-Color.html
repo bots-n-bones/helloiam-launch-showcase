@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Игры, промо-посты и дизайн-система helloiam.am">
+<title>Duduk / Vertical Ticker · helloiam.am</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 3s steps(1) infinite;animation-delay:-0s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes fall{from{transform:translateY(-2000px)}to{transform:translateY(0)}}
+.fall{animation:fall 3s steps(10) infinite}
+@media (prefers-reduced-motion:reduce){.fall{animation:none}}
+
+:root:not([data-motion="playing"]) .canvas *{animation-play-state:paused!important}
+.preview-title{margin:22px 0 10px;font:700 clamp(30px,5vw,64px)/1 var(--sans)}
+.motion-toggle{margin-bottom:12px;padding:8px;background:transparent;border:1px solid;cursor:pointer}
+.art-frame{width:min(100%,540px);aspect-ratio:4/5;position:relative;overflow:hidden}
+.canvas{position:absolute;inset:0 auto auto 0;width:1080px;height:1350px;transform-origin:top left}
+</style><script defer src="preview.js"></script>
+</head>
+<body><div class="shell"><header class="mast"><a href="../">← Витрина</a></header><h1 class="preview-title">Duduk / Vertical Ticker</h1><button class="motion-toggle" type="button" aria-pressed="false">▶ Воспроизвести</button>
+<div class="art-frame"><div class="canvas"><div class="cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 128px; line-height: 128px; letter-spacing: -0.01em">Hello, I am</p>
+<p style="position: absolute; left: 14px; top: 190px; margin: 0; font-size: 560px; line-height: 470px; font-weight: 700; letter-spacing: -0.055em; color: var(--ac, #ea5028)">DU<br>DUK</p>
+<div class="fall" style="position: absolute; left: 250px; top: 0; width: 1000px; transform: translateY(-2000px)">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="Duduk" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+</div>
+</div></div></div></div></body>
+</html>

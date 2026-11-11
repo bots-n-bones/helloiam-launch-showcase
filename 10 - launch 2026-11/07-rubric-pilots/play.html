@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AM Games · Prototype</title>
+<link rel="stylesheet" href="pilot.css">
+<link rel="stylesheet" href="play.css">
+</head>
+<body class="play">
+<main>
+  <p><a href="../showcase/#games">← AM Games</a></p>
+  <h1 id="title"></h1>
+  <p id="instructions"></p>
+  <div id="field" aria-hidden="true"></div>
+  <p id="status" role="status"></p>
+  <div class="buttons" aria-label="Movement">
+    <button type="button" data-move="left" aria-label="Move left">←</button>
+    <button type="button" data-move="up" aria-label="Move up">↑</button>
+    <button type="button" data-move="down" aria-label="Move down">↓</button>
+    <button type="button" data-move="right" aria-label="Move right">→</button>
+  </div>
+  <div class="actions"><button type="button" id="drop" hidden>Drop</button><button type="button" id="reset">Restart</button></div>
+</main>
+<script src="play.js"></script>
+</body>
+</html>

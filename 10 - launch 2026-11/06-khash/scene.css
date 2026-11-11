@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --ink: #0f0f10;
+  --red: #c5342e;
+  --yellow: #f6c757;
+  --paper: #ffffff;
+  --sans: "Instrument Sans", system-ui, sans-serif;
+  --margin: 7cqw;
+  --entry: cubic-bezier(.16, 1, .3, 1);
+  --duration-enter: 320ms;
+  --duration-stamp: 420ms;
+}
+
+* { box-sizing: border-box; }
+body {
+  min-height: 100svh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: var(--ink);
+  color: var(--paper);
+  font: 700 1rem/1 var(--sans);
+}
+.film {
+  position: relative;
+  width: min(100vw, 80svh);
+  aspect-ratio: 4 / 5;
+  container-type: inline-size;
+  overflow: hidden;
+  background: var(--ink);
+}
+.shot {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  overflow: hidden;
+}
+.shot.is-active { visibility: visible; }
+.shot :is(p, h1) { margin: 0; }
+em { color: var(--red); font-style: normal; }
+[data-genre="horror"] [data-tone="comedy"],
+[data-genre="comedy"] [data-tone="horror"] { display: none; }
+
+.mark, .category {
+  position: absolute;
+  z-index: 1;
+  left: var(--margin);
+}
+.mark { top: var(--margin); font-size: 4.4cqw; letter-spacing: -.045em; }
+.category { bottom: var(--margin); font-size: 3.5cqw; letter-spacing: .1em; }
+.calendar-copy { width: 100%; text-align: center; }
+.calendar-heading, .months { font-size: 5.9cqw; letter-spacing: -.04em; word-spacing: .08em; }
+.letter {
+  height: 67cqw;
+  display: grid;
+  place-items: center;
+  color: var(--red);
+  font-size: 82cqw;
+  line-height: .82;
+  letter-spacing: -.08em;
+  padding-right: .08em;
+  animation: emerge 2s .12s both;
+}
+.months { animation: appear var(--duration-enter) .9s both; }
+[data-genre="comedy"] .letter { animation: stamp var(--duration-stamp) .15s var(--entry) both; }
+[data-genre="comedy"] .months { animation-delay: .55s; }
+@keyframes emerge {
+  from { opacity: 0; transform: scale(.91); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes appear { from { opacity: 0; } to { opacity: 1; } }
+@keyframes stamp {
+  0% { opacity: 0; transform: translateY(-16cqw) scale(1.34) rotate(-9deg); }
+  68% { opacity: 1; transform: scale(.94) rotate(2deg); }
+  100% { opacity: 1; transform: none; }
+}
+
+.media { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.fog video { filter: saturate(.65) brightness(.78); }
+[data-genre="comedy"] .fog video { filter: saturate(1.06); }
+:is(.fog, .toast)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(15 15 16 / 42%);
+}
+[data-genre="comedy"] :is(.fog, .toast)::after { background: rgb(15 15 16 / 38%); }
+.caption {
+  position: absolute;
+  z-index: 1;
+  inset-inline: var(--margin);
+  bottom: var(--margin);
+  font-size: 8.1cqw;
+  line-height: .92;
+  letter-spacing: -.055em;
+  word-spacing: .1em;
+  animation: rise var(--duration-enter) .35s var(--entry) both;
+}
+@keyframes rise { from { opacity: 0; transform: translateY(3cqw); } to { opacity: 1; transform: none; } }
+
+.word {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 20cqw;
+  line-height: .86;
+  letter-spacing: -.085em;
+}
+.syllable-one { font-size: 55cqw; animation: first-word 4s step-end both; }
+.syllable-two { font-size: 24cqw; animation: second-word 4s step-end both; }
+.syllable-three { animation: third-word 4s step-end both; }
+@keyframes first-word { 0% { opacity: 1; } 22.5%, 100% { opacity: 0; } }
+@keyframes second-word { 0% { opacity: 0; } 22.5% { opacity: 1; } 57.5%, 100% { opacity: 0; } }
+@keyframes third-word { 0% { opacity: 0; } 57.5%, 100% { opacity: 1; } }
+[data-genre="comedy"] .syllable-one { animation: first-word 4s step-end both, shove .68s .12s var(--entry) both; }
+[data-genre="comedy"] .syllable-two { animation: second-word 4s step-end both, shove .9s .9s var(--entry) both; }
+[data-genre="comedy"] .syllable-three { animation: third-word 4s step-end both, shove .55s 2.3s var(--entry) both; }
+@keyframes shove {
+  0% { transform: translateX(10cqw) rotate(-7deg) scale(.88); }
+  55% { transform: translateX(-4cqw) rotate(2deg) scale(1.12); }
+  100% { transform: none; }
+}
+.lavash img { animation: push 4s linear both; }
+.toast img { animation: push 1s var(--entry) both; }
+@keyframes push { from { transform: scale(1); } to { transform: scale(1.1); } }
+.toast .caption { font-size: 7.2cqw; animation-delay: 1s; }
+.toast strong { display: block; font-size: 21cqw; margin-bottom: 1.6cqw; }
+.toast .caption span { white-space: nowrap; }
+
+.ending { color: var(--red); }
+.ending :is(.mark, .category, .tagline) { color: var(--paper); }
+.closing-hush { animation: collapse .72s .22s var(--entry) both; }
+.end-copy { width: 100%; text-align: center; animation: settle .4s .7s var(--entry) both; }
+.ending h1 {
+  font-size: 28cqw;
+  line-height: .83;
+  letter-spacing: -.084em;
+  padding-right: .084em;
+}
+.ending .tagline {
+  margin-top: 4.5cqw;
+  font-size: 6.15cqw;
+  line-height: .96;
+  letter-spacing: -.045em;
+  word-spacing: .1em;
+  animation: rise var(--duration-enter) 1.75s var(--entry) both;
+}
+@keyframes collapse {
+  from { opacity: 1; transform: none; }
+  to { opacity: 0; transform: scaleX(.2) scaleY(.94); }
+}
+@keyframes settle {
+  from { opacity: 0; transform: scale(1.13); }
+  to { opacity: 1; transform: none; }
+}
+[data-genre="comedy"] .ending { background: var(--yellow); color: var(--ink); }
+[data-genre="comedy"] .ending :is(.mark, .category, .tagline) { color: inherit; }
+[data-genre="comedy"] .closing-hush { animation: disperse .68s .24s var(--entry) both; }
+[data-genre="comedy"] .scatter { display: inline-block; animation: scatter .53s .24s var(--entry) both; }
+[data-genre="comedy"] .scatter:nth-of-type(2) { --scatter-x: -25cqw; --scatter-y: -21cqw; --scatter-tilt: -25deg; }
+[data-genre="comedy"] .scatter:nth-of-type(3) { --scatter-x: 4cqw; --scatter-y: 32cqw; --scatter-tilt: 31deg; }
+[data-genre="comedy"] .scatter:nth-of-type(4) { --scatter-x: 35cqw; --scatter-y: -25cqw; --scatter-tilt: 45deg; }
+@keyframes disperse { from { opacity: 1; } 65% { opacity: 1; } to { opacity: 0; } }
+@keyframes scatter { to { transform: translate(var(--scatter-x), var(--scatter-y)) rotate(var(--scatter-tilt)); } }
+[data-genre="comedy"] .end-copy { animation: assemble .44s .69s var(--entry) both; }
+[data-genre="comedy"] .ending h1 span { display: inline-block; animation: slide-k .43s .69s var(--entry) both; }
+[data-genre="comedy"] .tagline { animation-delay: 1.25s; }
+@keyframes assemble { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slide-k { from { transform: translateX(-24cqw) rotate(-14deg); } to { transform: none; } }

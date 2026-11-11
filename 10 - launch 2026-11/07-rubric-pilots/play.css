@@ -1,0 +1,26 @@
+.play main{max-width:620px;padding-block:1rem 3rem}
+.play h1{font-size:clamp(2.9rem,10vw,5.5rem);margin:1rem 0 .65rem}
+#instructions{margin-bottom:1.1rem}
+#field{position:relative;width:100%;aspect-ratio:1;background:var(--ink);overflow:hidden;isolation:isolate}
+#field.lavash{display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(5,1fr);gap:3px;padding:3px}
+.cell{display:grid;place-items:center;background:#2d2821;color:var(--yellow);font-size:clamp(1rem,7vw,2.5rem)}
+.cell.wall{background:var(--red)}
+.cell img{display:block;width:95%;height:95%;object-fit:contain}
+#status{margin:.8rem 0;font-weight:700;min-height:1.5em}
+.buttons,.actions{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
+button{font:700 1rem Instrument,system-ui,sans-serif;padding:.7rem 1rem;min-width:48px;min-height:44px;border:1px solid var(--ink);border-radius:0;background:var(--paper);color:var(--ink);cursor:pointer}
+button:hover{background:var(--yellow)}
+button:disabled{cursor:default;opacity:.5}
+#drop{background:var(--red);color:white}
+#field.tuff{background:#e8c7b4;perspective:850px}
+.floor{position:absolute;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);inset:18%;gap:5px;transform:rotateX(52deg) rotateZ(-25deg);transform-style:preserve-3d}
+.tile{background:#f8e6d9;border:1px solid #815846;position:relative;display:grid;place-items:center;transform-style:preserve-3d}
+.tile.target{background:var(--yellow)}
+.tile.aim{outline:3px solid var(--ink);z-index:1}
+.block{position:absolute;width:73%;height:73%;transform-style:preserve-3d;transform:translateZ(92px)}
+.block.lowered{transform:translateZ(11px);animation:settle .24s cubic-bezier(.4,0,.7,1)}
+@keyframes settle{from{transform:translateZ(92px)}to{transform:translateZ(11px)}}
+@media(prefers-reduced-motion:reduce){.block.lowered{animation:none}}
+.block i{position:absolute;inset:0;display:block;width:100%;height:100%;background:#cb8265;border:1px solid #82523c}
+.block i:nth-child(2){transform-origin:left;transform:rotateY(90deg);background:#9c543b}
+.block i:nth-child(3){transform-origin:bottom;transform:rotateX(90deg);background:#efac8d}

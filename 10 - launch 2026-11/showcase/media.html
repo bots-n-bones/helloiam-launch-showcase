@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Фото и видео из библиотеки запуска. Можно искать, переименовывать и брать в референс.">
+<title>Медиа · helloiam.am</title>
+<link rel="stylesheet" href="styles.css?v=objects-2">
+<script defer src="showcase.js?v=objects-1"></script>
+<link rel="stylesheet" href="media.css?v=objects-1">
+<script defer src="media.js?v=objects-2"></script>
+<script defer src="object-forms.js?v=objects-2"></script>
+</head>
+<body data-page="media" data-section="objects">
+<div class="shell">
+<nav class="jump" aria-label="Разделы витрины"><a href="./">Главная</a></nav>
+<main class="catalog-page" id="top">
+<header class="page-intro">
+  <div class="catalog-heading">
+    <div>
+      <h1 id="media-title">Медиа</h1>
+      <p class="catalog-description">Фото и видео из библиотеки запуска. Можно искать, переименовывать и брать в референс.</p>
+    </div>
+    <button class="catalog-action" type="button" data-open-form>Добавить медиа</button>
+  </div>
+  <nav class="section-jumps object-pages" aria-label="В разделе «Объекты»">
+    <a href="objects.html">Список</a>
+    <a href="emoji.html">Эмодзи</a>
+    <a href="media.html" aria-current="page">Медиа</a>
+  </nav>
+</header>
+<section class="catalog-section" id="media" aria-labelledby="media-title">
+  <p class="catalog-meta" id="media-count">Фото и видео</p>
+  <div class="media-toolbar" id="media-toolbar" hidden>
+    <label class="media-search">Поиск <input id="media-search" type="search" placeholder="Название или имя файла"></label>
+    <label>Тип файла <select id="media-type"><option value="">Все</option><option value="image">Фото</option><option value="video">Видео</option></select></label>
+    <div class="media-transfers">
+      <button type="button" id="media-export">Экспорт названий</button>
+      <button type="button" id="media-import">Импорт названий</button>
+      <input type="file" id="media-import-file" accept=".json,application/json" hidden>
+    </div>
+  </div>
+  <p class="media-status" id="media-status" role="status">Загружаем список файлов…</p>
+  <p class="media-feedback" id="media-feedback" role="status"></p>
+  <div class="media-grid" id="media-grid"></div>
+  <noscript><p>Для просмотра и редактирования каталога включите JavaScript.</p></noscript>
+</section>
+</main>
+<footer class="bottom"><a class="bottom-home" href="./">← Главная витрины</a><a href="#top">Наверх ↑</a></footer>
+</div>
+<dialog id="add-object-asset" aria-labelledby="asset-form-title">
+  <div class="asset-editor">
+    <h2 id="asset-form-title">Добавить медиа</h2>
+    <p class="prototype-note">Предпросмотр формы</p>
+    <label>Объект
+      <select name="object" autofocus disabled>
+        <option value="">Загрузка объектов…</option>
+      </select>
+    </label>
+    <div class="asset-fields" data-object-fields hidden>
+      <label>Описание
+        <textarea rows="4" placeholder="Что должно быть в кадре?" maxlength="2000"></textarea>
+      </label>
+      <label>Референс
+        <select name="reference">
+          <option value="">Без референса</option>
+        </select>
+      </label>
+    </div>
+    <div class="asset-actions">
+      <button type="button" class="catalog-action" disabled>Добавить медиа</button>
+      <button type="button" class="catalog-action secondary" data-close-form>Закрыть</button>
+    </div>
+  </div>
+</dialog>
+<dialog id="media-rename" aria-labelledby="rename-title">
+  <form id="rename-form" class="media-editor">
+    <h2 id="rename-title">Название карточки</h2>
+    <p id="rename-original"></p>
+    <label>Название <input id="rename-input" type="text" maxlength="120" autofocus aria-describedby="rename-hint"></label>
+    <p id="rename-hint">Пустое поле вернёт имя исходного файла.</p>
+    <p id="rename-error" role="alert"></p>
+    <div class="media-transfers">
+      <button type="submit">Сохранить</button>
+      <button type="button" id="rename-cancel">Отмена</button>
+    </div>
+  </form>
+</dialog>
+<dialog id="player" aria-labelledby="player-title">
+<header><h2 id="player-title">Ролик</h2><form method="dialog"><button aria-label="Закрыть видео" autofocus>×</button></form></header>
+<video controls playsinline preload="none" aria-label="Воспроизведение ролика"></video>
+</dialog>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hello, I am tashi tushi — the dance</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes dance{0%,100%{transform:scaleX(1) translateY(0)}25%{transform:scaleX(1) translateY(-30px)}50%{transform:scaleX(-1) translateY(0)}75%{transform:scaleX(-1) translateY(-30px)}}
+@keyframes drum{0%,100%{transform:scale(1) rotate(-8deg)}50%{transform:scale(1.06) rotate(-6deg)}}
+@keyframes beatA{0%{color:#c5342e}50%{color:#0f0f10}}
+@keyframes beatB{0%{color:#0f0f10}50%{color:#c5342e}}
+.dance{animation:dance 2.4s ease-in-out infinite}
+.drum{animation:drum 1.2s ease-in-out infinite}
+.beatA{animation:beatA 1.2s steps(1) infinite}
+.beatB{animation:beatB 1.2s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.dance,.drum,.beatA,.beatB{animation:none}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #ffffff; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Hello, I am</p>
+<p class="beatA" style="position: absolute; left: 24px; top: 130px; margin: 0; font-size: 330px; line-height: 290px; font-weight: 700; letter-spacing: -0.05em; color: #c5342e">TASHI</p>
+<p class="beatB" style="position: absolute; left: 24px; top: 950px; margin: 0; font-size: 330px; line-height: 290px; font-weight: 700; letter-spacing: -0.05em; color: #0f0f10">TUSHI</p>
+<div style="position: absolute; left: 190px; top: 300px; width: 760px; height: 760px">
+<img class="dance" src="/_blob/d49bc557034efb16c007790599e1c857" alt="Dancing man" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<div style="position: absolute; left: 20px; top: 650px; width: 300px; height: 300px">
+<img class="drum" src="/_blob/d6f9e6de0a9ba068a9dc90bb30d1fa9d" alt="Dhol" style="width: 100%; height: 100%; object-fit: contain; transform: rotate(-8deg)">
+</div>
+<p style="position: absolute; right: 40px; top: 44px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM SOUND</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

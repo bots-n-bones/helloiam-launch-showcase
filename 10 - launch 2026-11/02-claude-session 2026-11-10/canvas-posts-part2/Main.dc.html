@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AM means Armenia — one word per beat</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show12{0%{opacity:1}8.333%{opacity:0}100%{opacity:0}}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.c12{opacity:0;animation:show12 6s steps(1) infinite}
+.jit{animation:jit 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.c12,.jit{animation:none}.c12:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 210px; line-height: 210px; font-weight: 700; letter-spacing: -0.03em">
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #f6c757; color: #0f0f10; animation-delay: 0s"><span>HELLO</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #c5342e; animation-delay: 0.5s"><span>I AM</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #f6c757; animation-delay: 1s"><img class="jit" src="/_blob/e4266a5d9ed1daee6320e6a4529e78a8" alt="Pomegranate" style="width: 420px; height: 420px; object-fit: contain"></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #c5342e; animation-delay: 1.5s"><span>AM</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f0f10; animation-delay: 2s"><span>AM</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #557af7; animation-delay: 2.5s"><span>MEANS</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #557af7; animation-delay: 3s"><img class="jit" src="/_blob/e4266a5d9ed1daee6320e6a4529e78a8" alt="Pomegranate" style="width: 420px; height: 420px; object-fit: contain"></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f0f10; animation-delay: 3.5s"><span>ARMENIA</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f0f10; animation-delay: 4s"><img src="/_blob/b83824553e0b04a48fa8544620ac7c1e" alt="Monastery on a ridge" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">ARMENIA</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #f6c757; color: #ea5028; animation-delay: 4.5s"><span>ARMENIA</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f0f10; animation-delay: 5s"><img src="/_blob/a161760a49d89b9cc6d033faba45728e" alt="Vineyard at sunset" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">ARMENIA</span></div>
+<div class="c12" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0f0f10; animation-delay: 5.5s"><img src="/_blob/5d374e858de9e75965be0f7acb5e43f1" alt="Village street in the mountains" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">ARMENIA</span></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

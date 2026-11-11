@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-mode="media" data-playing="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lavash + khorovats · helloiam.am</title>
+<style>
+body{margin:0}
+@keyframes jit{0%{transform:translate(0,0) rotate(-3deg)}25%{transform:translate(6px,-6px) rotate(2deg)}50%{transform:translate(-5px,4px) rotate(-1deg)}75%{transform:translate(4px,6px) rotate(3deg)}}
+@keyframes in2{0%{opacity:0}15%{opacity:1}100%{opacity:1}}
+@keyframes in3{0%{opacity:0}30%{opacity:1}100%{opacity:1}}
+@keyframes in4{0%{opacity:0}45%{opacity:1}100%{opacity:1}}
+@keyframes in5{0%{opacity:0}60%{opacity:1}100%{opacity:1}}
+.jit{animation:jit .52s steps(1) infinite}
+.in2{animation:in2 4s steps(1) infinite}
+.in3{animation:in3 4s steps(1) infinite}
+.in4{animation:in4 4s steps(1) infinite}
+.in5{animation:in5 4s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.jit,.in2,.in3,.in4,.in5{animation:none}}
+</style>
+<link rel="stylesheet" href="../board.css">
+<script defer src="../board.js"></script>
+</head>
+<body>
+<main class="artboard" style="--cut-period:5.6s">
+  <div class="media-track" aria-hidden="true"><img src="../../01-objects/02-media-unsorted/helloiam_image_17.png" alt=""></div>
+  <div class="original" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #ffffff; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<div style="position: absolute; left: 40px; top: 60px; width: 1000px; display: flex; align-items: center; justify-content: space-between">
+<div class="jit" style="width: 400px; height: 400px"><img src="../../02-claude-session%202026-11-10/emoji-cutout/01-Lavash.png" alt="Lavash" style="width: 100%; height: 100%; object-fit: contain"></div>
+<span class="in2" style="font-size: 220px; line-height: 220px; font-weight: 700">+</span>
+<div class="in3" style="width: 400px; height: 400px"><div class="jit" style="width: 100%; height: 100%; animation-delay: -0.26s"><img src="../../02-claude-session%202026-11-10/emoji-cutout/02-Khorovats.png" alt="Khorovats" style="width: 100%; height: 100%; object-fit: contain"></div></div>
+</div>
+<p class="in4" style="position: absolute; left: 40px; top: 560px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">= I AM</p>
+<p class="in5" style="position: absolute; left: 28px; top: 720px; margin: 0; font-size: 300px; line-height: 260px; font-weight: 700; letter-spacing: -0.045em; color: #c5342e">LUNCH</p>
+</div>
+</main>
+</body>
+</html>

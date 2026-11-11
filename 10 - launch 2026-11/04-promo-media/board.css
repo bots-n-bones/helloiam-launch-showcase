@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../02-claude-session%202026-11-10/design-system/fonts/InstrumentSerif-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-display: swap;
+}
+:root { --ink: #0f0f10; --white: #ffffff; }
+html, body { overflow: hidden; background: var(--ink); }
+.artboard {
+  position: absolute;
+  width: 1080px;
+  height: 1350px;
+  isolation: isolate;
+  transform-origin: top left;
+  overflow: hidden;
+}
+.original { z-index: 1; }
+.media-track {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  overflow: hidden;
+  background: var(--ink);
+}
+.media-track > :is(img, video) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+[data-mode="media"] .media-track { visibility: visible; }
+[data-mode="media"] .media-track::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(15 15 16 / 58%);
+}
+[data-mode="media"] .original,
+[data-mode="media"] .original .c4 { background: transparent !important; color: var(--white) !important; }
+[data-mode="media"] .original :is(h1, p, span, div) { color: var(--white) !important; }
+[data-mode="media"] .original .strike { background: var(--white) !important; }
+
+@keyframes show-media {
+  0% { visibility: hidden; }
+  72% { visibility: visible; }
+}
+[data-mode="cut"] .media-track {
+  z-index: 2;
+  animation: show-media var(--cut-period) steps(1) infinite;
+}
+[data-playing="false"] .artboard * { animation-play-state: paused !important; }
+
+html:not([data-mode="original"]) [data-board="not-pita"] .original > .jit {
+  right: -170px !important;
+  bottom: -125px !important;
+  width: 930px !important;
+  height: 930px !important;
+}

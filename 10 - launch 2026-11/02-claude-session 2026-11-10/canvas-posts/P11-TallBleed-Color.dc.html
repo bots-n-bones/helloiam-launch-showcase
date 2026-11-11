@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tall object — duduk bleeding top to bottom over the text — colour cycle</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 3s steps(1) infinite;animation-delay:-2.4s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(-24px)}}
+.nudge{animation:nudge 4s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.nudge{animation:none}}
+</style>
+</helmet>
+<div class="cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #ffffff; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<h1 style="position: absolute; left: 28px; top: 30px; margin: 0; font-size: 300px; line-height: 262px; font-weight: 700; letter-spacing: -0.045em">HELLO,<br>I AM<br><span style="color: var(--ac, #c5342e)">DUDUK</span></h1>
+<div class="nudge" style="position: absolute; left: -170px; top: -230px; width: 1800px; height: 1800px">
+<img src="/_blob/bd4f647a25859d3ab6cb2b5e0cf6d1f5" alt="Duduk" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<p style="position: absolute; left: 40px; bottom: 96px; margin: 0; width: 520px; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 64px; line-height: 66px; letter-spacing: -0.01em">Too long for one post.</p>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM SOUND</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

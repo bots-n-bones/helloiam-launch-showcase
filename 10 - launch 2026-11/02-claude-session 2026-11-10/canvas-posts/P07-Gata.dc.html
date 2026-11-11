@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hello, I am gata — spinning</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes bump{0%,100%{transform:none}}
+.spin{animation:spin 12s linear infinite}
+.bump{animation:none}
+@media (prefers-reduced-motion:reduce){.spin,.bump{animation:none}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 128px; line-height: 128px; letter-spacing: -0.01em">Hello, I am</p>
+<p class="bump" style="position: absolute; left: 22px; top: 150px; margin: 0; font-size: 380px; line-height: 330px; font-weight: 700; letter-spacing: -0.05em; color: #ea5028">GATA</p>
+<div style="position: absolute; left: 150px; top: 500px; width: 780px; height: 780px">
+<img class="spin" src="/_blob/06964b9908cef4cfb572cee9de95e379" alt="Gata" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM FOOD</p>
+<p style="position: absolute; right: 40px; bottom: 32px; margin: 0; width: 330px; text-align: right; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 48px; line-height: 50px; letter-spacing: -0.01em">Sweet, round, gone by noon.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

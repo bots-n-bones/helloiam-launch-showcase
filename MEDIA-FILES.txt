@@ -1,0 +1,422 @@
+10 - launch 2026-11/01-objects/01-emoji/01 Lavash.png
+10 - launch 2026-11/01-objects/01-emoji/02 Khorovats.png
+10 - launch 2026-11/01-objects/01-emoji/03 Glass of Armenian wine.png
+10 - launch 2026-11/01-objects/01-emoji/04 Matsun.png
+10 - launch 2026-11/01-objects/01-emoji/05 Bottle of Armenian wine.png
+10 - launch 2026-11/01-objects/01-emoji/06 Cup of Armenian coffee.png
+10 - launch 2026-11/01-objects/01-emoji/07 Pomegranate.png
+10 - launch 2026-11/01-objects/01-emoji/08 Apricot.png
+10 - launch 2026-11/01-objects/01-emoji/09 Tolma.png
+10 - launch 2026-11/01-objects/01-emoji/10 Green Plate.png
+10 - launch 2026-11/01-objects/01-emoji/11 Grapes.png
+10 - launch 2026-11/01-objects/01-emoji/12 Matnakash.png
+10 - launch 2026-11/01-objects/01-emoji/13 Baklava.png
+10 - launch 2026-11/01-objects/01-emoji/14 Sujukh.png
+10 - launch 2026-11/01-objects/01-emoji/15 Basturma.png
+10 - launch 2026-11/01-objects/01-emoji/16 Gata.png
+10 - launch 2026-11/01-objects/01-emoji/17 Basket of fruit.png
+10 - launch 2026-11/01-objects/01-emoji/18 Zhingyalov hats.png
+10 - launch 2026-11/01-objects/01-emoji/19 Wedding dress.png
+10 - launch 2026-11/01-objects/01-emoji/20 Dhol.png
+10 - launch 2026-11/01-objects/01-emoji/21 Backgammon.png
+10 - launch 2026-11/01-objects/01-emoji/22 Duduk.png
+10 - launch 2026-11/01-objects/01-emoji/23 A bucket of water.png
+10 - launch 2026-11/01-objects/01-emoji/24 Church.png
+10 - launch 2026-11/01-objects/01-emoji/25 Carpet.png
+10 - launch 2026-11/01-objects/01-emoji/26 Khachkar.png
+10 - launch 2026-11/01-objects/01-emoji/27 Pulpulak.png
+10 - launch 2026-11/01-objects/01-emoji/28 Gyumri.png
+10 - launch 2026-11/01-objects/01-emoji/29 Garni tample.png
+10 - launch 2026-11/01-objects/01-emoji/30 Geghard Monastery.png
+10 - launch 2026-11/01-objects/01-emoji/31 Tatev Monastery.png
+10 - launch 2026-11/01-objects/01-emoji/32 Jermuk water.png
+10 - launch 2026-11/01-objects/01-emoji/33 Mountain.png
+10 - launch 2026-11/01-objects/01-emoji/34 Ararat.png
+10 - launch 2026-11/01-objects/01-emoji/35 Sevan trout.png
+10 - launch 2026-11/01-objects/01-emoji/36 Street lamp.png
+10 - launch 2026-11/01-objects/01-emoji/37 Balcony.png
+10 - launch 2026-11/01-objects/01-emoji/38 Brutalism.png
+10 - launch 2026-11/01-objects/01-emoji/39 Sun.png
+10 - launch 2026-11/01-objects/01-emoji/40 Map.png
+10 - launch 2026-11/01-objects/01-emoji/41 Jazve.png
+10 - launch 2026-11/01-objects/01-emoji/42 Jug.png
+10 - launch 2026-11/01-objects/01-emoji/43 Backpack.png
+10 - launch 2026-11/01-objects/01-emoji/44 Tuf.png
+10 - launch 2026-11/01-objects/01-emoji/45 Armenian passport.png
+10 - launch 2026-11/01-objects/01-emoji/46 Fountains.png
+10 - launch 2026-11/01-objects/01-emoji/47 Tashi Tushi (dancing man).png
+10 - launch 2026-11/01-objects/01-emoji/48 Armenian car.png
+10 - launch 2026-11/01-objects/01-emoji/49 Restaurant plate.png
+10 - launch 2026-11/01-objects/01-emoji/50 Ghapama.png
+10 - launch 2026-11/01-objects/02-media-unsorted/Copy of helloam_Kling 1.6_2026-05-25_15-37-49.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/Copy of helloam_Kling 1.6_2026-05-25_15-37-54.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/Copy of helloam_Kling 1.6_2026-05-25_15-38-00.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/Copy of helloam_Kling 1.6_2026-05-25_15-38-06.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/Copy of helloam_Kling 1.6_2026-05-25_15-38-11.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/Copy of helloam_Kling 1.6_2026-05-25_15-38-34.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_10.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_100.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_11.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_12.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_13.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_14.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_15.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_16.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_17.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_18.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_19.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_20.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_21.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_22.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_23.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_24.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_25.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_26.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_27.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_28.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_29.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_30.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_31.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_32.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_33.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_34.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_35.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_36.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_37.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_38.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_39.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_40.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_41.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_42.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_43.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_44.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_45.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_46.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_47.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_48.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_49.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_5.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_50.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_51.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_52.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_53.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_54.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_55.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_56.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_57.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_58.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_59.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_6.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_60.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_61.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_62.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_63.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_64.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_65.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_66.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_67.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_68.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_69.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_7.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_70.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_71.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_72.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_73.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_74.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_75.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_76.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_77.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_78.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_79.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_8.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_80.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_81.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_82.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_83.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_84.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_85.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_86.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_87.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_9.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_98.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiam_image_99.png
+10 - launch 2026-11/01-objects/02-media-unsorted/helloiamam0003_Kling 1.6_2026-05-18_14-45-56.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/hf_20260428_184651_e860c56e-48b3-479a-b8a6-cb621c347f9a.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/hf_20260428_190258_231705e0-2026-4606-943f-b594acc8ce6d.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/hf_20260429_120952_a4f0ffb0-501d-409c-8a37-887df643d10d.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/matsun-01-01.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/matsun-01-02.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/matsun-01-03.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/matsun-01-04.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/matsun-01-05.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/untitled_Kling 1.6_2026-05-08_18-32-04.mp4
+10 - launch 2026-11/01-objects/02-media-unsorted/двор.png
+10 - launch 2026-11/01-objects/02-media-unsorted/ковер.png
+10 - launch 2026-11/01-objects/02-media-unsorted/лаваш.png
+10 - launch 2026-11/01-objects/02-media-unsorted/хачкар.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/01-Lavash.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/02-Khorovats.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/03-Glass-of-Armenian-wine.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/04-Matsun.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/05-Bottle-of-Armenian-wine.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/06-Cup-of-Armenian-coffee.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/07-Pomegranate.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/08-Apricot.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/09-Tolma.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/10-Green-Plate.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/11-Grapes.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/12-Matnakash.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/13-Baklava.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/14-Sujukh.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/15-Basturma.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/16-Gata.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/17-Basket-of-fruit.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/18-Zhingyalov-hats.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/19-Wedding-dress.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/20-Dhol.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/21-Backgammon.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/22-Duduk.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/23-A-bucket-of-water.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/24-Church.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/25-Carpet.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/26-Khachkar.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/27-Pulpulak.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/28-Gyumri.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/29-Garni-tample.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/30-Geghard-Monastery.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/31-Tatev-Monastery.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/32-Jermuk-water.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/33-Mountain.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/34-Ararat.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/35-Sevan-trout.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/36-Street-lamp.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/37-Balcony.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/38-Brutalism.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/39-Sun.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/40-Map.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/41-Jazve.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/42-Jug.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/43-Backpack.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/44-Tuf.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/45-Armenian-passport.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/46-Fountains.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/47-Tashi-Tushi-dancing-man.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/48-Armenian-car.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/49-Restaurant-plate.png
+10 - launch 2026-11/02-claude-session 2026-11-10/emoji-cutout/50-Ghapama.png
+10 - launch 2026-11/02-claude-session 2026-11-10/media-contact-sheet.jpg
+10 - launch 2026-11/03-media-posts/exports/01-jazve/01-media.png
+10 - launch 2026-11/03-media-posts/exports/01-jazve/02-emoji.png
+10 - launch 2026-11/03-media-posts/exports/01-jazve/03-title.png
+10 - launch 2026-11/03-media-posts/exports/02-carpet/01-media.png
+10 - launch 2026-11/03-media-posts/exports/02-carpet/02-emoji.png
+10 - launch 2026-11/03-media-posts/exports/02-carpet/03-title.png
+10 - launch 2026-11/03-media-posts/exports/03-balcony/01-media.png
+10 - launch 2026-11/03-media-posts/exports/03-balcony/02-emoji.png
+10 - launch 2026-11/03-media-posts/exports/03-balcony/03-title.png
+10 - launch 2026-11/03-media-posts/exports/04-khachkar/01-media.png
+10 - launch 2026-11/03-media-posts/exports/04-khachkar/02-emoji.png
+10 - launch 2026-11/03-media-posts/exports/04-khachkar/03-title.png
+10 - launch 2026-11/03-media-posts/exports/centerstage-reel.mp4
+10 - launch 2026-11/03-media-posts/reel-poster.png
+10 - launch 2026-11/05-sujukh/cover.png
+10 - launch 2026-11/05-sujukh/sujukh.mp4
+10 - launch 2026-11/06-khash/comedy-cover.png
+10 - launch 2026-11/06-khash/horror-cover.png
+10 - launch 2026-11/06-khash/khash-comedy.mp4
+10 - launch 2026-11/06-khash/khash-horror.mp4
+10 - launch 2026-11/07-rubric-pilots/assets/shot-23.png
+10 - launch 2026-11/07-rubric-pilots/assets/shot-31.png
+10 - launch 2026-11/07-rubric-pilots/assets/shot-39.png
+10 - launch 2026-11/07-rubric-pilots/exports/apricot-season/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/apricot-season/apricot-season.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/apricot/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/apricot/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/apricot/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/brutalism/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/brutalism/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/dolma/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/dolma/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/dolma/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/dolma/04.png
+10 - launch 2026-11/07-rubric-pilots/exports/four-dots/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/four-dots/four-dots.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/from-gyumri/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/from-gyumri/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/from-gyumri/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/green-plate/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/green-plate/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/green-plate/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/hear-duduk/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/hear-duduk/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/hear-duduk/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/hello-bloggers/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/hello-bloggers/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/hello-bloggers/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/hidden-courtyard/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/hidden-courtyard/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/hidden-courtyard/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/lavash-teaser/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/lavash-teaser/lavash-teaser.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/love-lavash/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/love-lavash/love-lavash.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/market-mountain/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/market-mountain/market-mountain.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/matsun/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/matsun/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/matsun/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/numbers-heritage/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/pink-tuff/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/pink-tuff/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/pink-tuff/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/pomegranate-trailer/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/pomegranate-trailer/pomegranate-trailer.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/say-hello-wine/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/say-hello-wine/say-hello-wine.mp4
+10 - launch 2026-11/07-rubric-pilots/exports/sofia-yerevan/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/sofia-yerevan/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/sofia-yerevan/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/taxi-lunch/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/taxi-lunch/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/taxi-lunch/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/tonys-drive/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/tonys-drive/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/tonys-drive/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/tonys-drive/04.png
+10 - launch 2026-11/07-rubric-pilots/exports/wine-lover/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/wine-lover/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/wine-lover/03.png
+10 - launch 2026-11/07-rubric-pilots/exports/wine-lover/04.png
+10 - launch 2026-11/07-rubric-pilots/exports/wine-lover/05.png
+10 - launch 2026-11/07-rubric-pilots/exports/yerevan-nights/01.png
+10 - launch 2026-11/07-rubric-pilots/exports/yerevan-nights/02.png
+10 - launch 2026-11/07-rubric-pilots/exports/yerevan-nights/03.png
+10 - launch 2026-11/08-object-launch/exports/backpack/backpack.mp4
+10 - launch 2026-11/08-object-launch/exports/backpack/cover.png
+10 - launch 2026-11/08-object-launch/exports/fountains/cover.png
+10 - launch 2026-11/08-object-launch/exports/fountains/fountains.mp4
+10 - launch 2026-11/08-object-launch/exports/jug/cover.png
+10 - launch 2026-11/08-object-launch/exports/jug/jug.mp4
+10 - launch 2026-11/games/AM Games/01-match-the-silhouette-cover.png
+10 - launch 2026-11/games/AM Games/01-match-the-silhouette.mp4
+10 - launch 2026-11/games/AM Games/02-roll-double-sixes-cover.png
+10 - launch 2026-11/games/AM Games/02-roll-double-sixes.mp4
+10 - launch 2026-11/games/AM Games/03-spot-the-stitch-cover.png
+10 - launch 2026-11/games/AM Games/03-spot-the-stitch.mp4
+10 - launch 2026-11/games/AM Games/04-name-that-place-cover.png
+10 - launch 2026-11/games/AM Games/04-name-that-place.mp4
+10 - launch 2026-11/games/AM Games/05-catch-the-dancer-cover.png
+10 - launch 2026-11/games/AM Games/05-catch-the-dancer.mp4
+10 - launch 2026-11/games/Khorovats/1.mp4
+10 - launch 2026-11/games/Khorovats/2.mp4
+10 - launch 2026-11/games/Khorovats/3.mp4
+10 - launch 2026-11/games/Khorovats/4.jpg
+10 - launch 2026-11/games/Khorovats/5.jpg
+10 - launch 2026-11/games/Khorovats/Khorovats.mp4
+10 - launch 2026-11/showcase/assets/media/002a51912939d6118897.jpg
+10 - launch 2026-11/showcase/assets/media/01bbc9497eb13dc16c17.jpg
+10 - launch 2026-11/showcase/assets/media/0d65190fce80c9b9516f.jpg
+10 - launch 2026-11/showcase/assets/media/10139f82113c300cfdd8.jpg
+10 - launch 2026-11/showcase/assets/media/1360ae35cb37f96aaec7.jpg
+10 - launch 2026-11/showcase/assets/media/136e2dc30d4c21bd1ef4.jpg
+10 - launch 2026-11/showcase/assets/media/18379fea155929893be9.jpg
+10 - launch 2026-11/showcase/assets/media/1a58c91d0c1514e870d6.jpg
+10 - launch 2026-11/showcase/assets/media/1bcb23481cdc4d2a8fad.jpg
+10 - launch 2026-11/showcase/assets/media/1c512e1f4fce3beb677f.jpg
+10 - launch 2026-11/showcase/assets/media/1df3800c0c0703c91d61.jpg
+10 - launch 2026-11/showcase/assets/media/2008c745401cac5778b6.jpg
+10 - launch 2026-11/showcase/assets/media/20d772ab7067577680f6.jpg
+10 - launch 2026-11/showcase/assets/media/2142a41c669e2b42668c.jpg
+10 - launch 2026-11/showcase/assets/media/2211944843936f6ebf5f.jpg
+10 - launch 2026-11/showcase/assets/media/226490a80726f6d52037.jpg
+10 - launch 2026-11/showcase/assets/media/25390ad6c5c94ba3bf05.jpg
+10 - launch 2026-11/showcase/assets/media/258f56e7129d51d48a7e.jpg
+10 - launch 2026-11/showcase/assets/media/2964a635492266f4adfb.jpg
+10 - launch 2026-11/showcase/assets/media/2a90afcbd6d2df9b2f0b.jpg
+10 - launch 2026-11/showcase/assets/media/2b09e3a05c65bc403f8b.jpg
+10 - launch 2026-11/showcase/assets/media/2d9b51a4b65d6e4ed92a.jpg
+10 - launch 2026-11/showcase/assets/media/33c2f667903d16308dda.jpg
+10 - launch 2026-11/showcase/assets/media/3754c9b1693c507a5b44.jpg
+10 - launch 2026-11/showcase/assets/media/3da3efcf864ea5c0894c.jpg
+10 - launch 2026-11/showcase/assets/media/400945457fa7366e5e97.jpg
+10 - launch 2026-11/showcase/assets/media/40f912c37d7ac81d7814.jpg
+10 - launch 2026-11/showcase/assets/media/4152e68738fe68ac3b3c.jpg
+10 - launch 2026-11/showcase/assets/media/43e8cc0ada9c4cd2e7bb.jpg
+10 - launch 2026-11/showcase/assets/media/45b6e2118a13c562a871.jpg
+10 - launch 2026-11/showcase/assets/media/4bf7baa984852dfbcc8f.jpg
+10 - launch 2026-11/showcase/assets/media/4ca454ed6ff676056ab3.jpg
+10 - launch 2026-11/showcase/assets/media/4ee9364b4cdd2525a229.jpg
+10 - launch 2026-11/showcase/assets/media/50bdb817fa92fc75af5e.jpg
+10 - launch 2026-11/showcase/assets/media/50f26c74877bef5237fd.jpg
+10 - launch 2026-11/showcase/assets/media/5716def362ee9d713735.jpg
+10 - launch 2026-11/showcase/assets/media/581af194e8db3356e5ab.jpg
+10 - launch 2026-11/showcase/assets/media/5bd77c81591cf52d90f0.jpg
+10 - launch 2026-11/showcase/assets/media/5eebe823e886e44d4682.jpg
+10 - launch 2026-11/showcase/assets/media/5f371f0056b7323dc612.jpg
+10 - launch 2026-11/showcase/assets/media/5fd59c80f4c51cb7f745.jpg
+10 - launch 2026-11/showcase/assets/media/5fdfa3d0acb4d451ac55.jpg
+10 - launch 2026-11/showcase/assets/media/60dd9276f88142f17f21.jpg
+10 - launch 2026-11/showcase/assets/media/63379dd5eb04eb7cb1fb.jpg
+10 - launch 2026-11/showcase/assets/media/66871deefddb016bbb30.jpg
+10 - launch 2026-11/showcase/assets/media/678c539bbde1a5af4ac1.jpg
+10 - launch 2026-11/showcase/assets/media/6cdbb429c8ced60ce086.jpg
+10 - launch 2026-11/showcase/assets/media/6f3b164b79eea4807982.jpg
+10 - launch 2026-11/showcase/assets/media/70b8349f65783d6fa03a.jpg
+10 - launch 2026-11/showcase/assets/media/72d5aaa34e05f59f0978.jpg
+10 - launch 2026-11/showcase/assets/media/7400c72cc6fe60895c27.jpg
+10 - launch 2026-11/showcase/assets/media/7829a3fab5611ef93bad.jpg
+10 - launch 2026-11/showcase/assets/media/792b684ac9d9425a55d9.jpg
+10 - launch 2026-11/showcase/assets/media/79f0caf0c706c6a0874e.jpg
+10 - launch 2026-11/showcase/assets/media/7e2449bb3f34fcfc5488.jpg
+10 - launch 2026-11/showcase/assets/media/7e81fbcd7edfbf6e8ee7.jpg
+10 - launch 2026-11/showcase/assets/media/7eb6d6f93e04cdc0b488.jpg
+10 - launch 2026-11/showcase/assets/media/7f45cc59997496bf05d8.jpg
+10 - launch 2026-11/showcase/assets/media/84cbed56fd3182048265.jpg
+10 - launch 2026-11/showcase/assets/media/8705a410c12d8e20f049.jpg
+10 - launch 2026-11/showcase/assets/media/8ac35e30b1c9556dc4d6.jpg
+10 - launch 2026-11/showcase/assets/media/8cf5e1eb97630b5ee48a.jpg
+10 - launch 2026-11/showcase/assets/media/8e16967d424f1c77501f.jpg
+10 - launch 2026-11/showcase/assets/media/933729123b217f2d5c3e.jpg
+10 - launch 2026-11/showcase/assets/media/93cede67c88e1458df93.jpg
+10 - launch 2026-11/showcase/assets/media/9423ba40ecc176531895.jpg
+10 - launch 2026-11/showcase/assets/media/9d0b53d107925b1b68d7.jpg
+10 - launch 2026-11/showcase/assets/media/9d939ebee7ecf79c90a3.jpg
+10 - launch 2026-11/showcase/assets/media/a4b6604e94e314a6dca6.jpg
+10 - launch 2026-11/showcase/assets/media/a6f1d06cc7603c746364.jpg
+10 - launch 2026-11/showcase/assets/media/a77e7ffd394a67c765df.jpg
+10 - launch 2026-11/showcase/assets/media/aa279d75e43f5899353e.jpg
+10 - launch 2026-11/showcase/assets/media/ab6e7ffe566cc901470a.jpg
+10 - launch 2026-11/showcase/assets/media/ac35bd0352e82a55c081.jpg
+10 - launch 2026-11/showcase/assets/media/b1cb1be449534f9bb3b5.jpg
+10 - launch 2026-11/showcase/assets/media/b42ca2d374758cdd1f7d.jpg
+10 - launch 2026-11/showcase/assets/media/b9022db2f272dc7856d8.jpg
+10 - launch 2026-11/showcase/assets/media/b9082efabecd598f1c78.jpg
+10 - launch 2026-11/showcase/assets/media/bb3c91515ab1d4ef23b0.jpg
+10 - launch 2026-11/showcase/assets/media/bcb9575546762754c452.jpg
+10 - launch 2026-11/showcase/assets/media/becc58acca117d502732.jpg
+10 - launch 2026-11/showcase/assets/media/bfbb5c8294f2cb17ac93.jpg
+10 - launch 2026-11/showcase/assets/media/c235646b312a88c5faf5.jpg
+10 - launch 2026-11/showcase/assets/media/c67be67b6cabbe68ecf3.jpg
+10 - launch 2026-11/showcase/assets/media/c6a9bab745d4c3a9f33c.jpg
+10 - launch 2026-11/showcase/assets/media/c718025953ce74113a1d.jpg
+10 - launch 2026-11/showcase/assets/media/c7848ca3696ef51599fa.jpg
+10 - launch 2026-11/showcase/assets/media/c9bdb8e947681d72cf64.jpg
+10 - launch 2026-11/showcase/assets/media/cf184fea15fffc6fc235.jpg
+10 - launch 2026-11/showcase/assets/media/d1f00f70ba7819702e6e.jpg
+10 - launch 2026-11/showcase/assets/media/d30a0b8de91d0585bf36.jpg
+10 - launch 2026-11/showcase/assets/media/d33be6a7842d5b1773d2.jpg
+10 - launch 2026-11/showcase/assets/media/d3e7378015ed92d7cfcc.jpg
+10 - launch 2026-11/showcase/assets/media/d8fd5165be318e5a6fd2.jpg
+10 - launch 2026-11/showcase/assets/media/dbda3813db700f9029d1.jpg
+10 - launch 2026-11/showcase/assets/media/ded292dacf64c6bdfcb4.jpg
+10 - launch 2026-11/showcase/assets/media/e1d78c0a930f6a2e4ebd.jpg
+10 - launch 2026-11/showcase/assets/media/e2fc47f2affad7ec4d56.jpg
+10 - launch 2026-11/showcase/assets/media/e441f35ad1914b1de9d4.jpg
+10 - launch 2026-11/showcase/assets/media/e6295576cf60b8e07a32.jpg
+10 - launch 2026-11/showcase/assets/media/ea1e258f0f78afe18c9b.jpg
+10 - launch 2026-11/showcase/assets/media/eca8cd2ee22ab88354b2.jpg
+10 - launch 2026-11/showcase/assets/media/f1dbec8866c51f5b1041.jpg
+10 - launch 2026-11/showcase/assets/media/f40c810eed9e63415723.jpg
+10 - launch 2026-11/showcase/assets/media/faa36c3dde287aa0ed9f.jpg
+10 - launch 2026-11/showcase/assets/media/fc9ec7928330b61b65b8.jpg
+10 - launch 2026-11/showcase/assets/nur.webp

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-mode="media" data-playing="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tashi tushi · helloiam.am</title>
+<style>
+body{margin:0}
+@keyframes dance{0%{transform:scaleX(1) translateY(0) rotate(-4deg)}25%{transform:scaleX(1) translateY(-26px) rotate(3deg)}50%{transform:scaleX(-1) translateY(0) rotate(-4deg)}75%{transform:scaleX(-1) translateY(-26px) rotate(3deg)}}
+@keyframes drum{0%{transform:scale(1) rotate(-8deg)}50%{transform:scale(1.08) rotate(-4deg)}}
+@keyframes beatA{0%{color:#c5342e}50%{color:#0f0f10}}
+@keyframes beatB{0%{color:#0f0f10}50%{color:#c5342e}}
+.dance{animation:dance 1.2s steps(1) infinite}
+.drum{animation:drum .6s steps(1) infinite}
+.beatA{animation:beatA 1.2s steps(1) infinite}
+.beatB{animation:beatB 1.2s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.dance,.drum,.beatA,.beatB{animation:none}}
+</style>
+<link rel="stylesheet" href="../board.css">
+<script defer src="../board.js"></script>
+</head>
+<body>
+<main class="artboard" style="--cut-period:3.6s">
+  <div class="media-track" aria-hidden="true"><img src="../../01-objects/02-media-unsorted/helloiam_image_10.png" alt=""></div>
+  <div class="original" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #ffffff; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Hello, I am</p>
+<p class="beatA" style="position: absolute; left: 24px; top: 130px; margin: 0; font-size: 330px; line-height: 290px; font-weight: 700; letter-spacing: -0.05em; color: #c5342e">TASHI</p>
+<p class="beatB" style="position: absolute; left: 24px; top: 950px; margin: 0; font-size: 330px; line-height: 290px; font-weight: 700; letter-spacing: -0.05em; color: #0f0f10">TUSHI</p>
+<div style="position: absolute; left: 190px; top: 300px; width: 760px; height: 760px">
+<img class="dance" src="../../02-claude-session%202026-11-10/emoji-cutout/47-Tashi-Tushi-dancing-man.png" alt="Dancing man" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<div style="position: absolute; left: 20px; top: 650px; width: 300px; height: 300px">
+<img class="drum" src="../../02-claude-session%202026-11-10/emoji-cutout/20-Dhol.png" alt="Dhol" style="width: 100%; height: 100%; object-fit: contain; transform: rotate(-8deg)">
+</div>
+</div>
+</main>
+</body>
+</html>

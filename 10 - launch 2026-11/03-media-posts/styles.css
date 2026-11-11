@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --black: #0f0f10;
+  --white: #ffffff;
+  --cream: #eee7db;
+  --orange: #ea5028;
+  --yellow: #f6c757;
+  --red: #c5342e;
+  --blue: #557af7;
+  --line: #c9c3ba;
+  --gallery-gutter: clamp(16px, 4vw, 56px);
+  --gallery-gap: clamp(14px, 1.8vw, 24px);
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--cream); color: var(--black); font-family: var(--font-sans); }
+a { color: inherit; text-underline-offset: 3px; }
+:is(a, button):focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+
+.gallery { max-width: 1480px; margin: 0 auto; padding: 28px var(--gallery-gutter) 64px; }
+.masthead { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 28px; }
+.eyebrow, .section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.eyebrow, .section-title span { font-size: 13px; font-weight: 700; }
+.masthead h1 { margin: 28px 0 4px; font-size: clamp(52px, 8vw, 118px); line-height: .9; letter-spacing: -.075em; }
+.masthead h1 span { color: var(--orange); }
+.intro { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px 22px; }
+.intro p { margin: 12px 0 0; }
+nav { display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; font-weight: 700; }
+
+.section-title { margin-bottom: 14px; }
+.section-title h2 { margin: 0; font-size: 24px; letter-spacing: -.04em; }
+.controls, .steps { display: flex; flex-wrap: wrap; gap: 6px; }
+.controls { justify-content: space-between; margin-bottom: 14px; }
+.controls button {
+  min-height: 40px; padding: 0 12px; border: 1px solid var(--line);
+  background: transparent; color: var(--black); font: 700 13px var(--font-sans); cursor: pointer;
+}
+.controls button[aria-pressed="true"] { background: var(--black); border-color: var(--black); color: var(--white); }
+.controls button:hover { border-color: var(--black); }
+
+.post-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gallery-gap); }
+.stage { width: 100%; }
+.frame {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  position: relative;
+  container-type: inline-size;
+  background: var(--ground, var(--black));
+  color: var(--ink, var(--white));
+}
+.frame-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.frame-emoji img { display: block; width: 70%; aspect-ratio: 1; object-fit: contain; }
+.frame-title p { margin: 0; font: 700 14cqw / 1 var(--font-sans); letter-spacing: -.06em; white-space: nowrap; }
+.ground-blue { --ground: var(--blue); }
+.ground-white { --ground: var(--white); --ink: var(--black); }
+.ground-yellow { --ground: var(--yellow); --ink: var(--black); }
+.ground-red { --ground: var(--red); }
+.ground-black { --ground: var(--black); }
+
+.post-card h3 { margin: 10px 0 3px; font-size: 16px; }
+.exports { display: flex; flex-wrap: wrap; gap: 5px 13px; padding: 4px 0 10px; border-bottom: 1px solid var(--line); }
+.exports a { font-size: 12px; font-weight: 700; }
+.asset-link { display: flex; justify-content: space-between; gap: 12px; padding: 11px 0; font-size: 14px; font-weight: 700; border-bottom: 1px solid var(--line); }
+
+.reel {
+  display: grid;
+  grid-template-columns: minmax(0, 310px) minmax(0, 400px);
+  gap: clamp(18px, 4vw, 54px);
+  align-items: center;
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.reel video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; background: var(--black); }
+.reel-copy h2 { margin: 10px 0; font-size: 64px; line-height: .9; letter-spacing: -.075em; }
+.reel-copy p { max-width: 36ch; line-height: 1.45; }
+.reel-copy p[lang="en"] { font-size: 13px; font-weight: 700; }
+
+@media (max-width: 850px) {
+  .post-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 480px) {
+  .gallery { padding-top: 18px; }
+  .post-grid, .reel { grid-template-columns: minmax(0, 1fr); }
+  .reel-copy { grid-row: 1; }
+}

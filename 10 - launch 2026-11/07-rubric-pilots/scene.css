@@ -1,0 +1,40 @@
+@font-face{font-family:Instrument;src:url('../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:Instrument Serif;src:url('../02-claude-session%202026-11-10/design-system/fonts/InstrumentSerif-Italic.woff2') format('woff2');font-style:italic;font-display:swap}
+:root{--red:#c5342e;--yellow:#f6c757;--ink:#0f0f10;--white:#fff;--news:#dadde0}
+*{box-sizing:border-box}
+body{margin:0}
+.frame{position:relative;width:100vw;height:100vh;overflow:hidden;background:var(--bg);color:var(--fg);font:700 16px Instrument,sans-serif;isolation:isolate}
+.red{--bg:var(--red);--fg:var(--white);--accent:var(--yellow)}
+.yellow{--bg:var(--yellow);--fg:var(--ink);--accent:var(--ink)}
+.black,.full{--bg:var(--ink);--fg:var(--white);--accent:var(--yellow)}
+.news{--bg:var(--news);--fg:var(--ink);--accent:var(--red)}
+.media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.full.has-copy::after{position:absolute;z-index:1;inset:0;content:"";background:rgba(0,0,0,.44)}
+.object{position:absolute;right:-14vw;bottom:-9vw;width:100vw;height:auto}
+.macro .object{width:280vw;right:-91vw;bottom:-52vw}
+.reel:not(.macro) .object{bottom:11vh}
+.copy{position:absolute;z-index:2;top:6%;left:5%;right:5%;display:grid;gap:2.3vw}
+.reel .copy{top:15%}
+.head{margin:0;white-space:pre-line;font-size:clamp(24px,11.3vw,150px);line-height:.94;letter-spacing:-.042em}
+.short .head{font-size:clamp(28px,16vw,170px)}
+.compact .head{font-size:clamp(20px,9.7vw,120px)}
+.note{max-width:82%;margin:0;font:italic 4.75vw/1.05 "Instrument Serif",serif;text-wrap:balance}
+.source{margin:0;font-size:2.65vw;letter-spacing:.055em;text-transform:uppercase}
+.type .copy{top:25%}
+.news .copy{top:7%;gap:4vw}
+.news .head{color:var(--ink)}
+.news .note{max-width:86%;font-size:6.2vw}
+.news .source{position:absolute;left:5%;bottom:13%;font-size:2.55vw}
+.route{position:absolute;left:5%;right:5%;bottom:15%;height:27%;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);display:grid;grid-template-columns:1fr 1fr;align-content:center;gap:2vw;color:var(--ink)}
+.route strong{font-size:11vw;line-height:1}
+.route small{font-size:3vw}
+.route .arrival{text-align:right}
+.route hr{grid-column:1/-1;width:100%;border:0;border-top:3px dashed var(--accent);margin:0}
+
+.number .head{font-size:36vw;line-height:.85}
+.number .copy{gap:4vw}
+.number .note{max-width:65%}
+.number .object{width:58vw;right:-4vw;bottom:5vh}
+.wordmark .copy{top:43%;justify-items:center;text-align:center}
+.lockup{display:flex;align-items:center;justify-content:center;font-size:12vw;line-height:1;letter-spacing:-.055em;gap:1.8vw}
+.lockup img{width:14vw;height:14vw;object-fit:contain}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>helloiam.am wordmark — the dot is an object — colour cycle</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 3s steps(1) infinite;animation-delay:-0.6s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes hop{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-12px) rotate(2deg)}}
+@keyframes show6{0%{opacity:1}16.66%{opacity:0}100%{opacity:0}}
+.hop{animation:hop 2.8s ease-in-out infinite}
+.c6{opacity:0;animation:show6 3.6s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.hop,.c6{animation:none}.c6:first-child{opacity:1}}
+</style>
+</helmet>
+<div class="cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #c5342e; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 40px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Hello, I am</p>
+<div style="position: absolute; left: 40px; top: 470px; display: flex; align-items: baseline; font-size: 300px; line-height: 250px; font-weight: 700; letter-spacing: -0.045em">
+<span>hello</span>
+</div>
+<div style="position: absolute; left: 40px; top: 720px; display: flex; align-items: flex-end; font-size: 300px; line-height: 250px; font-weight: 700; letter-spacing: -0.045em">
+<span>iam</span>
+<span class="hop" style="position: relative; display: block; width: 230px; height: 230px; margin: 0 6px 6px 10px">
+<img class="c6" src="/_blob/e82785ef9c275f1f3d1398658a877588" alt="Pomegranate" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0s">
+<img class="c6" src="/_blob/6bacd02f761f2f915622c5cd598d2833" alt="Apricot" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0.6s">
+<img class="c6" src="/_blob/06964b9908cef4cfb572cee9de95e379" alt="Gata" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.2s">
+<img class="c6" src="/_blob/337ff312de4c99e9d1fbc6692dfaae90" alt="Sun" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.8s">
+<img class="c6" src="/_blob/5ab8cb546a5219b796822fb989a34b4c" alt="Matnakash" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 2.4s">
+<img class="c6" src="/_blob/52d98d399e1e47e2bbef29b0e6a0476a" alt="Ghapama" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 3s">
+</span>
+<span style="color: var(--ac, #f6c757)">am</span>
+</div>
+<p style="position: absolute; left: 40px; top: 1010px; margin: 0; width: 760px; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 64px; line-height: 66px; letter-spacing: -0.01em">Armenia, one object at a time. The dot changes. The hello stays.</p>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">HELLOIAM.AM</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

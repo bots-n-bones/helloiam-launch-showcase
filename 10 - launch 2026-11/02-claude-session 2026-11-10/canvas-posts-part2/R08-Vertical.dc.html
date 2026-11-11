@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Big type — the name runs bottom to top</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes climb{0%,100%{transform:rotate(180deg)}}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.climb{animation:none}
+.jit{animation:jit 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.climb,.jit{animation:none}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #557af7; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p class="climb" style="position: absolute; left: 6px; bottom: 30px; margin: 0; writing-mode: vertical-rl; transform: rotate(180deg); font-size: 310px; line-height: 300px; font-weight: 700; letter-spacing: -0.045em; color: #0f0f10">ARARAT</p>
+<p style="position: absolute; right: 40px; top: 36px; margin: 0; text-align: right; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 128px; line-height: 118px; letter-spacing: -0.01em">Hello,<br>I am</p>
+<div class="jit" style="position: absolute; right: 30px; top: 420px; width: 720px; height: 720px">
+<img src="/_blob/e96d6910c5c66ea6734afa5db43bf75b" alt="Ararat" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<p style="position: absolute; right: 40px; bottom: 96px; margin: 0; width: 620px; text-align: right; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 64px; line-height: 66px; letter-spacing: -0.01em">Look up. Keep looking up.</p>
+<p style="position: absolute; right: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM PLACE</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

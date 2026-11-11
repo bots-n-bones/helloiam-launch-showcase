@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hello build — the headline assembles word by word</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show7{0%{opacity:1}14.2857%{opacity:0}100%{opacity:0}}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+@keyframes strip{from{transform:translateX(0)}to{transform:translateX(-400px)}}
+.c7{opacity:0;animation:show7 5.6s steps(1) infinite}
+.jit{animation:jit 3.2s ease-in-out infinite}
+.strip{animation:strip .8s linear infinite}
+@media (prefers-reduced-motion:reduce){.c7,.jit,.strip{animation:none}.c7:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #f6c757; color: #0f0f10; animation-delay: 0s">HELLO</div>
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #c5342e; animation-delay: 0.8s">HELLO,<br>I AM</div>
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 1.6s">HELLO,<br>I AM <img class="jit" src="/_blob/3cb7d7c7f5990ebc92f9a93c3fdf0c17" alt="wine" style="width: 150px; height: 150px; object-fit: contain; vertical-align: -24px"></div>
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #557af7; animation-delay: 2.4s">HELLO,<br>I AM <img class="jit" src="/_blob/3cb7d7c7f5990ebc92f9a93c3fdf0c17" alt="wine" style="width: 150px; height: 150px; object-fit: contain; vertical-align: -24px"><br><span style="color: #0f0f10">WINE</span></div>
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #ffffff; color: #0f0f10; animation-delay: 3.2s">HELLO,<br>I AM<br><span style="color: #c5342e">ARMENIA</span></div>
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #f6c757; color: #0f0f10; animation-delay: 4s">HELLO,<br>I AM<br><span style="color: #ea5028">ARMENIAN</span>
+<div class="strip" style="position: absolute; left: -40px; top: 640px; display: flex; gap: 100px">
+<img src="/_blob/47f049b0f415ba4f14b20ebb49b3894b" alt="Lavash" style="width: 300px; height: 300px; object-fit: contain">
+<img src="/_blob/3cb7d7c7f5990ebc92f9a93c3fdf0c17" alt="Wine" style="width: 300px; height: 300px; object-fit: contain">
+<img src="/_blob/e4266a5d9ed1daee6320e6a4529e78a8" alt="Pomegranate" style="width: 300px; height: 300px; object-fit: contain">
+<img src="/_blob/560019ebab6645c3ba71ad1e277c6c28" alt="Grapes" style="width: 300px; height: 300px; object-fit: contain">
+<img src="/_blob/24281518caea976a593d404b5304244d" alt="Duduk" style="width: 300px; height: 300px; object-fit: contain">
+</div>
+</div>
+<div class="c7" style="position: absolute; inset: 0; padding: 40px; background: #c5342e; animation-delay: 4.8s">HELLO,<br>I AM<br><span style="color: #f6c757">ARMENIAN</span>
+<img class="jit" src="/_blob/3574f861486d01a2a84c896b147cff6f" alt="Dolma" style="position: absolute; right: -110px; bottom: -130px; width: 1000px; height: 1000px; object-fit: contain">
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

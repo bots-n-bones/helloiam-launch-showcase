@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Object Launch · Scene</title>
+  <style>
+    @font-face { font-family: "Instrument Sans"; src: url("../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2") format("woff2"); font-weight: 700; }
+    * { box-sizing: border-box; }
+    body { margin: 0; display: grid; place-content: center; min-height: 100svh; background: #0f0f10; color: white; font: 700 16px "Instrument Sans", sans-serif; }
+    canvas { display: block; width: min(100vw, 72svh); height: auto; }
+    button { justify-self: start; color: inherit; background: transparent; border: 1px solid currentColor; padding: .5em 1em; min-height: 44px; margin-top: .5em; font: inherit; cursor: pointer; }
+    button:focus-visible { outline: 2px solid #f6c757; outline-offset: 4px; }
+  </style>
+  <script defer src="series.js"></script>
+  <script defer src="scene.js"></script>
+</head>
+<body>
+  <canvas id="film" width="1080" height="1350" role="img" aria-label="Object Launch animation"></canvas>
+  <button id="play" type="button">Play</button>
+</body>
+</html>

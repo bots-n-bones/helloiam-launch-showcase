@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>I am from — three places, coordinates in the tag</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show3{0%{opacity:1}33.3333%{opacity:0}100%{opacity:0}}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.c3{opacity:0;animation:show3 4.2s steps(1) infinite}
+.jit{animation:jit 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.c3,.jit{animation:none}.c3:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">
+<div class="c3" style="position: absolute; inset: 0; padding: 40px; background: #f6c757; color: #0f0f10; animation-delay: 0s">HELLO,<br>I AM FROM<br><span style="color: #ea5028">GARNI</span>
+<img class="jit" src="/_blob/0d4139f822d1b81c5e44aa1642230de7" alt="Garni temple" style="position: absolute; right: -90px; bottom: -70px; width: 940px; height: 940px; object-fit: contain">
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; letter-spacing: 0">AM PLACE · 40.11° N, 44.73° E</p></div>
+<div class="c3" style="position: absolute; inset: 0; padding: 40px; background: #c5342e; animation-delay: 1.4s">HELLO,<br>I AM FROM<br><span style="color: #f6c757">TATEV</span>
+<img class="jit" src="/_blob/00d98da905587d0fba6335f424cebbe9" alt="Tatev monastery" style="position: absolute; right: -90px; bottom: -70px; width: 940px; height: 940px; object-fit: contain">
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; letter-spacing: 0">AM PLACE · 39.38° N, 46.25° E</p></div>
+<div class="c3" style="position: absolute; inset: 0; padding: 40px; background: #ffffff; color: #0f0f10; animation-delay: 2.8s">HELLO,<br>I AM FROM<br><span style="color: #c5342e">GEGHARD</span>
+<img class="jit" src="/_blob/c1b1a255a7f2a053713a529ab33d7ebb" alt="Geghard monastery" style="position: absolute; right: -90px; bottom: -70px; width: 940px; height: 940px; object-fit: contain">
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; letter-spacing: 0">AM PLACE · 40.14° N, 44.82° E</p></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

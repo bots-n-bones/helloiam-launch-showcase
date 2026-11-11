@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Object on colour, then its photo — four pairs on the beat</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show8{0%{opacity:1}12.5%{opacity:0}100%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.c8{opacity:0;animation:show8 5.6s steps(1) infinite}
+.float{animation:float 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.c8,.float{animation:none}.c8:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #f6c757; color: #0f0f10; animation-delay: 0s">HELLO,<br>I AM<br><span style="color: #ea5028">LAVASH</span>
+<img class="float" src="/_blob/47f049b0f415ba4f14b20ebb49b3894b" alt="Lavash" style="position: absolute; right: -90px; bottom: -110px; width: 960px; height: 960px; object-fit: contain"></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 0.7s"><img src="/_blob/8adfd2acac04a7f68d9235e74d7aece1" alt="Lavash close up" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">HELLO,<br>I AM<br>LAVASH</span></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #c5342e; animation-delay: 1.4s">HELLO,<br>I AM<br><span style="color: #f6c757">WINE</span>
+<img class="float" src="/_blob/3cb7d7c7f5990ebc92f9a93c3fdf0c17" alt="Wine" style="position: absolute; right: -90px; bottom: -110px; width: 960px; height: 960px; object-fit: contain"></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 2.1s"><img src="/_blob/297ba21705a53c395811b7a2fddd5c4d" alt="Wine being poured" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">HELLO,<br>I AM<br>WINE</span></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 2.8s">HELLO,<br>I AM<br><span style="color: #ea5028">KHACHKAR</span>
+<img class="float" src="/_blob/60e93968223e9d4f197aa9e6adefe817" alt="Khachkar" style="position: absolute; right: -90px; bottom: -110px; width: 960px; height: 960px; object-fit: contain"></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 3.5s"><img src="/_blob/28609be153d867897b165b4d6b402757" alt="Khachkar at sunset" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">HELLO,<br>I AM<br>KHACHKAR</span></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #ffffff; color: #0f0f10; animation-delay: 4.2s">HELLO,<br>I AM<br><span style="color: #c5342e">DUDUK</span>
+<img class="float" src="/_blob/24281518caea976a593d404b5304244d" alt="Duduk" style="position: absolute; right: -90px; bottom: -110px; width: 960px; height: 960px; object-fit: contain"></div>
+<div class="c8" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 4.9s"><img src="/_blob/af2898180f3cbb831317a09099ccba0a" alt="Hands holding a duduk" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: relative">HELLO,<br>I AM<br>DUDUK</span></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

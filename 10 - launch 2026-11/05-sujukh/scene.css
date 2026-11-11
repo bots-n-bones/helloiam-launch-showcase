@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --ink: #0f0f10;
+  --orange: #ea5028;
+  --yellow: #f6c757;
+  --red: #c5342e;
+  --sans: "Instrument Sans", system-ui, sans-serif;
+  --duration: 10s;
+  --camera: cubic-bezier(.22, .68, .22, 1);
+  --object: 82cqw;
+}
+
+* { box-sizing: border-box; }
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100svh;
+  margin: 0;
+  background: var(--ink);
+  font-family: var(--sans);
+}
+.film {
+  position: relative;
+  width: min(100vw, 80svh);
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  container-type: inline-size;
+  isolation: isolate;
+  background: var(--ink);
+}
+.shot {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  overflow: hidden;
+  background: var(--yellow);
+  color: var(--ink);
+}
+.shot img { display: block; width: var(--object); height: auto; }
+.macro, .line { background: var(--ink); color: var(--orange); }
+.macro { animation: macro-cut var(--duration) step-end both; }
+.macro img { animation: macro-slide var(--duration) linear both; }
+.reveal { animation: reveal-cut var(--duration) step-end both; }
+.reveal img { animation: pullback var(--duration) var(--camera) both; }
+.passage { animation: passage-cut var(--duration) step-end both; }
+.ring {
+  position: relative;
+  width: var(--object);
+  aspect-ratio: 1;
+  animation: fly-through var(--duration) cubic-bezier(.55, 0, .7, 1) both;
+}
+.ring span {
+  position: absolute;
+  left: 50%;
+  top: 49%;
+  width: 54%;
+  height: 67%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: var(--ink);
+}
+.ring img { position: relative; width: 100%; }
+.line { animation: line-cut var(--duration) step-end both; }
+.line p {
+  margin: 0;
+  text-align: center;
+  font-size: 14cqw;
+  font-weight: 700;
+  line-height: .89;
+  letter-spacing: -.055em;
+  word-spacing: .085em;
+  animation: line-enter var(--duration) var(--camera) both;
+}
+.flood {
+  background: var(--red);
+  animation: flood-cut var(--duration) step-end both;
+}
+.flood-grid {
+  width: 125cqw;
+  transform: rotate(-11deg);
+}
+.flood-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  animation: flood-row-in .32s steps(3, jump-none) calc(5.25s + var(--row) * .16s) both;
+}
+.flood-row:nth-child(even) { margin-inline: 5cqw -5cqw; }
+.flood-row img {
+  width: 100%;
+  transform: rotate(var(--tilt));
+}
+.type-grid {
+  background: var(--ink);
+  animation: type-grid-cut var(--duration) step-end both;
+}
+.type-grid svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.type-grid text {
+  fill: var(--orange);
+  font: 700 512px var(--sans);
+  animation: type-stamp .001s step-end calc(6.75s + var(--pair) * .115s) both;
+}
+.signature { animation: signature-cut var(--duration) step-end both; }
+.signature h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 8.7cqw;
+  font-weight: 700;
+  line-height: .9;
+  letter-spacing: -.055em;
+  word-spacing: .08em;
+}
+.signature h1 strong {
+  display: block;
+  margin-top: 2.2cqw;
+  font-size: 18.7cqw;
+  font-weight: inherit;
+  letter-spacing: -.078em;
+}
+.wordmark {
+  position: absolute;
+  top: 8.1cqw;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 6cqw;
+  font-weight: 700;
+  letter-spacing: -.065em;
+}
+.wordmark img { width: .67em; margin: .07em .09em 0 .13em; }
+.category {
+  position: absolute;
+  bottom: 7cqw;
+  margin: 0;
+  font-size: 2.65cqw;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+@keyframes macro-cut { 0% { visibility: visible; } 13% { visibility: hidden; } }
+@keyframes reveal-cut { 13% { visibility: visible; } 31% { visibility: hidden; } }
+@keyframes passage-cut { 31% { visibility: visible; } 36.6% { visibility: hidden; } }
+@keyframes line-cut { 36.6% { visibility: visible; } 52.5% { visibility: hidden; } }
+@keyframes flood-cut { 52.5% { visibility: visible; } 67.5% { visibility: hidden; } }
+@keyframes type-grid-cut { 67.5% { visibility: visible; } 79% { visibility: hidden; } }
+@keyframes type-stamp { from { opacity: 0; } to { opacity: 1; } }
+
+@keyframes signature-cut { 79% { visibility: visible; } 100% { visibility: hidden; } }
+@keyframes december-cut { 100% { visibility: visible; } }
+@keyframes december-enter {
+  from { opacity: 0; transform: translateY(1.1cqw); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes macro-slide {
+  0% { transform: translate(63cqw, 6cqw) rotate(-15deg) scale(3.55); }
+  13%, 100% { transform: translate(52cqw, 0) rotate(-5deg) scale(3.15); }
+}
+@keyframes pullback {
+  0%, 13% { transform: rotate(-10deg) scale(1.34); }
+  23.5%, 100% { transform: rotate(0) scale(1); }
+}
+@keyframes fly-through {
+  0%, 31% { transform: scale(1); }
+  36.6%, 100% { transform: scale(5.35); }
+}
+@keyframes line-enter {
+  0%, 36.6% { opacity: .4; transform: scale(.94); }
+  39.5%, 100% { opacity: 1; transform: scale(1); }
+}
+@keyframes flood-row-in {
+  0% { opacity: 0; transform: translateX(-8cqw) scale(.78); }
+  34% { opacity: 1; transform: translateX(2cqw) scale(1.04); }
+  100% { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+.december {
+  background: var(--ink);
+  color: var(--orange);
+  animation: december-cut var(--duration) step-end both;
+}
+.december-copy { text-align: center; }
+.december-title {
+  margin: 0;
+  font-size: 11cqw;
+  font-weight: 700;
+  line-height: .86;
+  letter-spacing: -.068em;
+}
+.december-title strong {
+  display: block;
+  margin-top: 1.7cqw;
+  font-size: 15.5cqw;
+  font-weight: inherit;
+}
+.december-availability {
+  margin: 5cqw 0 0;
+  font-size: 4.9cqw;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  animation: december-enter .3s var(--camera) 10.65s both;
+}
+.december-mark { top: auto; bottom: 7cqw; font-size: 4.2cqw; }
+
+@media (prefers-reduced-motion: reduce) {
+  .shot, .shot *, .shot img { animation: none; }
+  .signature { visibility: visible; }
+}

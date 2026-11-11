@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Игры, промо-посты и дизайн-система helloiam.am">
+<title>Wordmark · helloiam.am</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 3s steps(1) infinite;animation-delay:-0.6s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes hop{0%{transform:translateY(0) rotate(-4deg)}25%{transform:translateY(-14px) rotate(3deg)}50%{transform:translateY(0) rotate(-2deg)}75%{transform:translateY(-8px) rotate(5deg)}}
+@keyframes show6{0%{opacity:1}16.66%{opacity:0}100%{opacity:0}}
+.hop{animation:hop .48s steps(1) infinite}
+.c6{opacity:0;animation:show6 3.6s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.hop,.c6{animation:none}.c6:first-child{opacity:1}}
+
+:root:not([data-motion="playing"]) .canvas *{animation-play-state:paused!important}
+.preview-title{margin:22px 0 10px;font:700 clamp(30px,5vw,64px)/1 var(--sans)}
+.motion-toggle{margin-bottom:12px;padding:8px;background:transparent;border:1px solid;cursor:pointer}
+.art-frame{width:min(100%,540px);aspect-ratio:4/5;position:relative;overflow:hidden}
+.canvas{position:absolute;inset:0 auto auto 0;width:1080px;height:1350px;transform-origin:top left}
+</style><script defer src="preview.js"></script>
+</head>
+<body><div class="shell"><header class="mast"><a href="../">← Витрина</a></header><h1 class="preview-title">Wordmark</h1><button class="motion-toggle" type="button" aria-pressed="false">▶ Воспроизвести</button>
+<div class="art-frame"><div class="canvas"><div class="cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #c5342e; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<div style="position: absolute; left: 40px; top: 470px; display: flex; align-items: baseline; font-size: 264px; line-height: 250px; font-weight: 700; letter-spacing: -0.045em">
+<span>hello</span>
+</div>
+<div style="position: absolute; left: 40px; top: 720px; display: flex; align-items: flex-end; font-size: 264px; line-height: 250px; font-weight: 700; letter-spacing: -0.045em">
+<span>iam</span>
+<span class="hop" style="position: relative; display: block; width: 200px; height: 200px; margin: 0 6px 6px 10px">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="Pomegranate" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/08-Apricot.png" alt="Apricot" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0.6s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/16-Gata.png" alt="Gata" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.2s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/39-Sun.png" alt="Sun" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.8s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/12-Matnakash.png" alt="Matnakash" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 2.4s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/50-Ghapama.png" alt="Ghapama" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 3s">
+</span>
+<span style="color: var(--ac, #f6c757)">am</span>
+</div>
+</div></div></div></div></body>
+</html>

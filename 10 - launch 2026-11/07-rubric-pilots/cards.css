@@ -1,0 +1,12 @@
+.pilot-card{min-width:0}
+.pilot-card>summary{display:grid;gap:.55rem;padding:0;list-style:none;cursor:pointer}
+.pilot-card>summary::-webkit-details-marker{display:none}
+.pilot-card-title{display:flex;align-items:baseline;justify-content:space-between;gap:.5em;font-size:clamp(16px,1.6vw,22px);font-weight:700;line-height:1.13;letter-spacing:-.025em}
+.pilot-card-title::after{content:"+"}
+.pilot-card[open] .pilot-card-title::after{content:"−"}
+.pilot-cover{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:#ded8cf}
+.pilot-card>p,.pilot-card>video,.pilot-card>div,.pilot-card>a{margin:.65rem 0 0}
+.pilot-card>video{display:block;width:100%;max-height:76vh;background:#0f0f10}
+.pilot-card>a{display:inline-block}
+.pilot-card .slides{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.35rem}
+.pilot-card .slides img{display:block;width:100%;height:auto}

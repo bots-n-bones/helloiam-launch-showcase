@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Collect — numbered object card</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show5{0%{opacity:1}20%{opacity:0}100%{opacity:0}}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.c5{opacity:0;animation:show5 5s steps(1) infinite}
+.jit{animation:jit 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.c5,.jit{animation:none}.c5:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">
+<div class="c5" style="position: absolute; inset: 0; padding: 40px; background: #f6c757; color: #0f0f10; animation-delay: 0s">HELLO,<br>I AM<br><span style="color: #ea5028">№ 07</span>
+<p style="margin: 16px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Pomegranate</p>
+<img class="jit" src="/_blob/e4266a5d9ed1daee6320e6a4529e78a8" alt="Pomegranate" style="position: absolute; right: 40px; bottom: 60px; width: 640px; height: 640px; object-fit: contain"></div>
+<div class="c5" style="position: absolute; inset: 0; padding: 40px; background: #c5342e; animation-delay: 1s">HELLO,<br>I AM<br><span style="color: #f6c757">№ 22</span>
+<p style="margin: 16px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Duduk</p>
+<img class="jit" src="/_blob/24281518caea976a593d404b5304244d" alt="Duduk" style="position: absolute; right: 40px; bottom: 60px; width: 640px; height: 640px; object-fit: contain"></div>
+<div class="c5" style="position: absolute; inset: 0; padding: 40px; background: #0f0f10; animation-delay: 2s">HELLO,<br>I AM<br><span style="color: #ea5028">№ 34</span>
+<p style="margin: 16px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Ararat</p>
+<img class="jit" src="/_blob/e96d6910c5c66ea6734afa5db43bf75b" alt="Ararat" style="position: absolute; right: 40px; bottom: 60px; width: 640px; height: 640px; object-fit: contain"></div>
+<div class="c5" style="position: absolute; inset: 0; padding: 40px; background: #557af7; animation-delay: 3s">HELLO,<br>I AM<br><span style="color: #0f0f10">№ 26</span>
+<p style="margin: 16px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Khachkar</p>
+<img class="jit" src="/_blob/60e93968223e9d4f197aa9e6adefe817" alt="Khachkar" style="position: absolute; right: 40px; bottom: 60px; width: 640px; height: 640px; object-fit: contain"></div>
+<div class="c5" style="position: absolute; inset: 0; padding: 40px; background: #ffffff; color: #0f0f10; animation-delay: 4s">HELLO,<br>I AM<br><span style="color: #c5342e">№ 16</span>
+<p style="margin: 16px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Gata</p>
+<img class="jit" src="/_blob/3dc057a3341a99d3725be33889ad7a33" alt="Gata" style="position: absolute; right: 40px; bottom: 60px; width: 640px; height: 640px; object-fit: contain"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

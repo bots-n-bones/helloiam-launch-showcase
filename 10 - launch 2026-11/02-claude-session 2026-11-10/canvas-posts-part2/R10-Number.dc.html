@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Numbers — Hello, I am 5,752 m</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show8{0%{opacity:1}12.5%{opacity:0}100%{opacity:0}}
+@keyframes hold{0%{opacity:0}62.5%{opacity:1}100%{opacity:1}}
+@keyframes ride{0%{transform:translate(0,0)}62.5%{transform:translate(-360px,160px)}100%{transform:translate(-360px,160px)}}
+.c8{opacity:0;animation:show8 4s steps(1) infinite}
+.hold{opacity:0;animation:hold 4s steps(1) infinite}
+.ride{animation:ride 4s ease-out infinite}
+@media (prefers-reduced-motion:reduce){.c8,.hold,.ride{animation:none}.hold{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">HELLO,<br>I AM</h1>
+<div style="position: absolute; left: 28px; top: 352px; width: 1040px; height: 260px; font-size: 290px; line-height: 250px; font-weight: 700; letter-spacing: -0.05em; color: #ea5028; white-space: nowrap">
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 0s">1,000 M</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 0.5s">2,000 M</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 1s">3,000 M</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 1.5s">4,000 M</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 2s">5,000 M</span>
+<span class="hold" style="position: absolute; left: 0; top: 0">5,752 M</span>
+</div>
+<p style="position: absolute; left: 40px; top: 640px; margin: 0; width: 560px; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 64px; line-height: 66px; letter-spacing: -0.01em">The Wings of Tatev cable car, end to end.</p>
+<div class="ride" style="position: absolute; right: -120px; bottom: 60px; width: 620px; height: 620px">
+<img src="/_blob/00d98da905587d0fba6335f424cebbe9" alt="Tatev monastery" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM FACT</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

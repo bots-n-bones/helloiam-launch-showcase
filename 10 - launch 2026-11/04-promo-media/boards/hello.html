@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" data-mode="media" data-playing="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hello, I am … · helloiam.am</title>
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 2.5s steps(1) infinite;animation-delay:0s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes jit{0%{transform:translate(0,0) rotate(-2deg)}25%{transform:translate(10px,-8px) rotate(1.5deg)}50%{transform:translate(-8px,6px) rotate(-1deg)}75%{transform:translate(6px,10px) rotate(2.5deg)}}
+@keyframes show8{0%{opacity:1}12.5%{opacity:0}100%{opacity:0}}
+.jit{animation:jit .5s steps(1) infinite}
+.c8{opacity:0;animation:show8 4s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.jit,.c8{animation:none}.c8:first-child{opacity:1}}
+</style>
+<link rel="stylesheet" href="../board.css">
+<script defer src="../board.js"></script>
+</head>
+<body>
+<main class="artboard" style="--cut-period:5.6s">
+  <div class="media-track" aria-hidden="true"><img class="c8" style="animation-delay:0s" src="../../01-objects/02-media-unsorted/%D0%BB%D0%B0%D0%B2%D0%B0%D1%88.png" alt=""><img class="c8" style="animation-delay:0.5s" src="../../01-objects/02-media-unsorted/helloiam_image_48.png" alt=""><img class="c8" style="animation-delay:1s" src="../../01-objects/02-media-unsorted/helloiam_image_25.png" alt=""><img class="c8" style="animation-delay:1.5s" src="../../01-objects/02-media-unsorted/helloiam_image_16.png" alt=""><img class="c8" style="animation-delay:2s" src="../../01-objects/02-media-unsorted/helloiam_image_30.png" alt=""><img class="c8" style="animation-delay:2.5s" src="../../01-objects/02-media-unsorted/helloiam_image_76.png" alt=""><img class="c8" style="animation-delay:3s" src="../../01-objects/02-media-unsorted/helloiam_image_34.png" alt=""><img class="c8" style="animation-delay:3.5s" src="../../01-objects/02-media-unsorted/helloiam_image_77.png" alt=""></div>
+  <div class="original cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">HELLO,<br>I AM</h1>
+<div style="position: absolute; left: 40px; top: 352px; width: 1000px; height: 160px; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em; color: var(--ac, #ea5028)">
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 0s">LAVASH</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 0.5s">NUR</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 1s">DUDUK</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 1.5s">DZIRANI</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 2s">DOLMA</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 2.5s">GATA</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 3s">SURJ</span>
+<span class="c8" style="position: absolute; left: 0; top: 0; animation-delay: 3.5s">ARARAT</span>
+</div>
+<div class="jit" style="position: absolute; right: -90px; bottom: -110px; width: 960px; height: 960px">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/01-Lavash.png" alt="Lavash" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="Pomegranate" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0.5s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="Duduk" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/08-Apricot.png" alt="Apricot" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.5s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/09-Tolma.png" alt="Dolma" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 2s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/16-Gata.png" alt="Gata" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 2.5s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/06-Cup-of-Armenian-coffee.png" alt="Coffee" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 3s">
+<img class="c8" src="../../02-claude-session%202026-11-10/emoji-cutout/34-Ararat.png" alt="Ararat" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 3.5s">
+</div>
+</div>
+</main>
+</body>
+</html>

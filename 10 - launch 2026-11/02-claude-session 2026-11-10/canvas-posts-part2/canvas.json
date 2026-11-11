@@ -1,0 +1,26 @@
+{
+ "v": 3,
+ "createdOnFiles": {"v": 1, "at": "2026-11-11T05:20:00Z"},
+ "title": "helloiam.am — рубрики, часть 2",
+ "launch": {"view": "canvas"},
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {"x": 0, "y": 0, "w": 1080, "h": 1350, "title": "01 · AM means Armenia"},
+  "R02-HelloBuild.dc.html": {"x": 1160, "y": 0, "w": 1080, "h": 1350, "title": "02 · Hello build"},
+  "R03-CenterStage.dc.html": {"x": 2320, "y": 0, "w": 1080, "h": 1350, "title": "03 · Object, then its photo — centred"},
+  "R04-CenterColour.dc.html": {"x": 3480, "y": 0, "w": 1080, "h": 1350, "title": "04 · Object, then its photo — poster"},
+  "R05-CollectSeen.dc.html": {"x": 4640, "y": 0, "w": 1080, "h": 1350, "title": "05 · Collect — I have seen 12 / 50"},
+  "R06-CollectCard.dc.html": {"x": 0, "y": 1470, "w": 1080, "h": 1350, "title": "06 · Collect — object card"},
+  "R07-CropTicker.dc.html": {"x": 1160, "y": 1470, "w": 1080, "h": 1350, "title": "07 · Big type — crop"},
+  "R08-Vertical.dc.html": {"x": 2320, "y": 1470, "w": 1080, "h": 1350, "title": "08 · Big type — vertical"},
+  "R09-From.dc.html": {"x": 3480, "y": 1470, "w": 1080, "h": 1350, "title": "09 · I am from"},
+  "R10-Number.dc.html": {"x": 4640, "y": 1470, "w": 1080, "h": 1350, "title": "10 · Numbers"}
+ },
+ "order": ["Main.dc.html", "R02-HelloBuild.dc.html", "R03-CenterStage.dc.html", "R04-CenterColour.dc.html", "R05-CollectSeen.dc.html", "R06-CollectCard.dc.html", "R07-CropTicker.dc.html", "R08-Vertical.dc.html", "R09-From.dc.html", "R10-Number.dc.html"],
+ "notes": {
+  "title": {"x": 0, "y": -300, "text": "helloiam.am — rubrics, part 2: declared, now built", "kind": "title1", "maxW": 5720}
+ },
+ "designSystems": [
+  {"title": "helloiam.am", "namespace": "helloiam", "artifact": "https://claude.ai/artifact/MC7et9m2z6dRvoUpmBDPr3", "version": null, "copiedAt": "2026-11-11T05:20:00Z"}
+ ]
+}

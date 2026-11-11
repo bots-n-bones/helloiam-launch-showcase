@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Big type — the name is bigger than the frame and rolls past</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.roll{animation:roll 4.8s linear infinite}
+.jit{animation:jit 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.roll,.jit{animation:none}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #c5342e; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 128px; line-height: 128px; letter-spacing: -0.01em">Hello, I am</p>
+<div class="roll" style="position: absolute; left: 0; top: 250px; display: inline-flex; white-space: nowrap; font-size: 760px; line-height: 640px; font-weight: 700; letter-spacing: -0.06em; color: #f6c757">
+<span style="padding-right: 160px">LAVASH</span>
+<span style="padding-right: 160px">LAVASH</span>
+</div>
+<div class="jit" style="position: absolute; right: -60px; bottom: -80px; width: 760px; height: 760px">
+<img src="/_blob/47f049b0f415ba4f14b20ebb49b3894b" alt="Lavash" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM FOOD</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hello, I am duduk — the note stretches — colour cycle</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 3s steps(1) infinite;animation-delay:-1.2s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes blow{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes sway{0%,100%{transform:rotate(30deg)}50%{transform:rotate(35deg)}}
+.blow{animation:blow 2.4s steps(8,jump-none) infinite}
+.sway{animation:sway 3.6s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.blow,.sway{animation:none}}
+</style>
+</helmet>
+<div class="cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #0f0f10; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">HELLO,<br>I AM</h1>
+<p style="position: absolute; left: 40px; top: 352px; margin: 0; white-space: nowrap; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em; color: var(--ac, #ea5028)">DUDU<span class="blow" style="display: inline-block">UUUUUUU</span></p>
+<img class="sway" src="/_blob/bd4f647a25859d3ab6cb2b5e0cf6d1f5" alt="Duduk" style="position: absolute; left: 60px; top: 420px; width: 1040px; height: 1040px; object-fit: contain; transform: rotate(32deg)">
+<p style="position: absolute; left: 40px; bottom: 96px; margin: 0; width: 520px; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 64px; line-height: 66px; letter-spacing: -0.01em">One apricot-wood pipe. One very long note.</p>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM SOUND</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

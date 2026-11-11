@@ -1,0 +1,29 @@
+<!-- @dsCard height=288 -->
+<style>
+body{margin:0;background:var(--yellow)}
+.cv{position:relative;width:960px;height:288px;overflow:hidden;background:var(--yellow);font-family:var(--font-sans)}
+.cv svg{position:absolute;inset:0}
+.cv h1{position:absolute;left:40px;bottom:64px;margin:0;font:700 64px/.95 var(--font-sans);letter-spacing:-.03em;color:var(--black)}
+.cv p{position:absolute;left:40px;bottom:40px;margin:0;font:500 14px/1 var(--font-sans);color:var(--black)}
+.b-grey{fill:var(--grey)}.b-yellow{fill:var(--yellow)}.b-red{fill:var(--red)}.b-black{fill:var(--black)}.b-blue{fill:var(--blue)}
+.d-orange{fill:var(--orange)}.d-yellow{fill:var(--yellow)}.d-black{fill:var(--black)}.d-red{fill:var(--red)}
+</style>
+<div class="cv">
+<svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+<!-- blocks: red 160×288, black 80×200, red 80×120, black 80×288 — widths are 2× and 4× post-pad (40px), square corners (radius-none); ground is yellow
+     arrangement: a strip of unequal bands hung from the top edge, like a carousel mid-swipe; no blue and no white, so no forbidden flag pairing appears
+     pattern: discs — the dot of helloiam.am that every object replaces; each disc takes its ground's accent token (yellow on red, orange on black, black on yellow)
+     steps and radii: band width 80px (2 × post-pad), disc r 20px (post-pad / 2), disc pitch 40px, radius-none on blocks -->
+<rect class="b-red" x="520" y="0" width="160" height="288"/>
+<rect class="b-black" x="680" y="0" width="80" height="200"/>
+<rect class="b-red" x="800" y="0" width="80" height="120"/>
+<rect class="b-black" x="880" y="0" width="80" height="288"/>
+<circle class="d-yellow" cx="560" cy="248" r="20"/><circle class="d-yellow" cx="640" cy="248" r="20"/>
+<circle class="d-orange" cx="720" cy="160" r="20"/>
+<circle class="d-black" cx="720" cy="248" r="20"/><circle class="d-black" cx="800" cy="248" r="20"/>
+<circle class="d-yellow" cx="840" cy="80" r="20"/>
+<circle class="d-orange" cx="920" cy="248" r="20"/>
+</svg>
+<h1>helloiam.am</h1>
+<p>Hello, I am Armenia — one object at a time.</p>
+</div>

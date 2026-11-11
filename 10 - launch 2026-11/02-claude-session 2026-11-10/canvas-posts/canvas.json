@@ -1,0 +1,240 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-10T04:20:00Z"
+ },
+ "title": "helloiam.am — промо-посты",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "01 · Hello, I am …"
+  },
+  "P02-Wordmark.dc.html": {
+   "x": 1160,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "02 · helloiam●am"
+  },
+  "P03-Duduk.dc.html": {
+   "x": 2320,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "03 · Duduuuuk"
+  },
+  "P04-Fifty.dc.html": {
+   "x": 3480,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "04 · 50 things"
+  },
+  "P05-Plus.dc.html": {
+   "x": 4640,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "05 · Lavash + khorovats"
+  },
+  "P06-NotPita.dc.html": {
+   "x": 0,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "06 · I am not pita"
+  },
+  "P07-Gata.dc.html": {
+   "x": 1160,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "07 · Gata"
+  },
+  "P08-AmPm.dc.html": {
+   "x": 2320,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "08 · AM / PM"
+  },
+  "P09-TashiTushi.dc.html": {
+   "x": 3480,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "09 · Tashi tushi"
+  },
+  "P10-Nur.dc.html": {
+   "x": 4640,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "10 · Nur"
+  },
+  "P11-TallBleed.dc.html": {
+   "x": 0,
+   "y": 3240,
+   "w": 1080,
+   "h": 1350,
+   "title": "11 · Tall object, vertical bleed"
+  },
+  "P12-TallTicker.dc.html": {
+   "x": 1160,
+   "y": 3240,
+   "w": 1080,
+   "h": 1350,
+   "title": "12 · Tall object, vertical ticker"
+  },
+  "P13-WineTicker.dc.html": {
+   "x": 2320,
+   "y": 3240,
+   "w": 1080,
+   "h": 1350,
+   "title": "13 · Wine, two tickers"
+  },
+  "P02-Wordmark-Color.dc.html": {
+   "x": 7160,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "02 · helloiam●am · colour cycle"
+  },
+  "P03-Duduk-Color.dc.html": {
+   "x": 8320,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "03 · Duduuuuk · colour cycle"
+  },
+  "P04-Fifty-Color.dc.html": {
+   "x": 9480,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "04 · 50 things · colour cycle"
+  },
+  "P05-Plus-Color.dc.html": {
+   "x": 10640,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "05 · Lavash + khorovats · colour cycle"
+  },
+  "P06-NotPita-Color.dc.html": {
+   "x": 6000,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "06 · I am not pita · colour cycle"
+  },
+  "P07-Gata-Color.dc.html": {
+   "x": 7160,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "07 · Gata · colour cycle"
+  },
+  "P09-TashiTushi-Color.dc.html": {
+   "x": 9480,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "09 · Tashi tushi · colour cycle"
+  },
+  "P10-Nur-Color.dc.html": {
+   "x": 10640,
+   "y": 1470,
+   "w": 1080,
+   "h": 1350,
+   "title": "10 · Nur · colour cycle"
+  },
+  "P11-TallBleed-Color.dc.html": {
+   "x": 6000,
+   "y": 3240,
+   "w": 1080,
+   "h": 1350,
+   "title": "11 · Tall object, vertical bleed · colour cycle"
+  },
+  "P12-TallTicker-Color.dc.html": {
+   "x": 7160,
+   "y": 3240,
+   "w": 1080,
+   "h": 1350,
+   "title": "12 · Tall object, vertical ticker · colour cycle"
+  },
+  "P13-WineTicker-Color.dc.html": {
+   "x": 8320,
+   "y": 3240,
+   "w": 1080,
+   "h": 1350,
+   "title": "13 · Wine, two tickers · colour cycle"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "P02-Wordmark.dc.html",
+  "P03-Duduk.dc.html",
+  "P04-Fifty.dc.html",
+  "P05-Plus.dc.html",
+  "P06-NotPita.dc.html",
+  "P07-Gata.dc.html",
+  "P08-AmPm.dc.html",
+  "P09-TashiTushi.dc.html",
+  "P10-Nur.dc.html",
+  "P11-TallBleed.dc.html",
+  "P12-TallTicker.dc.html",
+  "P13-WineTicker.dc.html",
+  "P02-Wordmark-Color.dc.html",
+  "P03-Duduk-Color.dc.html",
+  "P04-Fifty-Color.dc.html",
+  "P05-Plus-Color.dc.html",
+  "P06-NotPita-Color.dc.html",
+  "P07-Gata-Color.dc.html",
+  "P09-TashiTushi-Color.dc.html",
+  "P10-Nur-Color.dc.html",
+  "P11-TallBleed-Color.dc.html",
+  "P12-TallTicker-Color.dc.html",
+  "P13-WineTicker-Color.dc.html"
+ ],
+ "notes": {
+  "title": {
+   "x": 0,
+   "y": -300,
+   "text": "helloiam.am — 10 promo posts, stop-motion",
+   "kind": "title1",
+   "maxW": 5720
+  },
+  "tall": {
+   "x": 0,
+   "y": 2940,
+   "text": "Tall objects — vertical bleed and ticker over the text",
+   "kind": "title1",
+   "maxW": 3400
+  },
+  "color": {
+   "x": 6000,
+   "y": -300,
+   "text": "Colour cycle — ground, type and object change together",
+   "kind": "title1",
+   "maxW": 5720
+  }
+ },
+ "designSystems": [
+  {
+   "title": "helloiam.am",
+   "namespace": "helloiam",
+   "artifact": "https://claude.ai/artifact/MC7et9m2z6dRvoUpmBDPr3",
+   "version": "1794283039-3368",
+   "copiedAt": "2026-11-10T04:20:00Z"
+  }
+ ]
+}

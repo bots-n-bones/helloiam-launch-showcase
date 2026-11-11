@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hello, I am 50 things — colour cycle</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@property --ac{syntax:'<color>';inherits:true;initial-value:#ea5028}
+@keyframes cyc{0%{background-color:#f6c757;color:#0f0f10;--ac:#ea5028}20%{background-color:#c5342e;color:#ffffff;--ac:#f6c757}40%{background-color:#0f0f10;color:#ffffff;--ac:#ea5028}60%{background-color:#557af7;color:#ffffff;--ac:#0f0f10}80%{background-color:#ffffff;color:#0f0f10;--ac:#c5342e}}
+.cyc{animation:cyc 3s steps(1) infinite;animation-delay:-1.8s}
+@media (prefers-reduced-motion:reduce){.cyc{animation:none}}
+@keyframes wa{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+@keyframes wb{0%,100%{transform:translateY(-6px) rotate(2deg)}50%{transform:translateY(4px) rotate(-2deg)}}
+.wa{animation:wa 2.8s ease-in-out infinite}
+.wb{animation:wb 3.4s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.wa,.wb{animation:none}}
+</style>
+</helmet>
+<div class="cyc" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #557af7; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">HELLO,<br>I AM<br><span style="color: var(--ac, #0f0f10)">50 THINGS</span></h1>
+<div style="position: absolute; left: 40px; top: 540px; width: 1000px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px 25px">
+<img class="wa" src="/_blob/01e93d28d5dfbce7c3ba049818c61033" alt="Lavash" style="width: 180px; height: 180px; object-fit: contain">
+<img class="wb" src="/_blob/386b0af6a323736cf19b309abd36d3f2" alt="Khorovats" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.2s">
+<img class="wa" src="/_blob/79d5f1b9c386535ce519812c2a638ff0" alt="Wine" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.3s">
+<img class="wb" src="/_blob/3f82e441d1ed8d6f8d5d20d852bb8149" alt="Coffee" style="width: 180px; height: 180px; object-fit: contain">
+<img class="wa" src="/_blob/e82785ef9c275f1f3d1398658a877588" alt="Pomegranate" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.1s">
+<img class="wb" src="/_blob/6bacd02f761f2f915622c5cd598d2833" alt="Apricot" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.4s">
+<img class="wa" src="/_blob/5f4f0949aa630a88c9e172ce0c794eca" alt="Dolma" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.2s">
+<img class="wb" src="/_blob/99424e89edc6a228f92fcbb1e1010890" alt="Grapes" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.1s">
+<img class="wa" src="/_blob/06964b9908cef4cfb572cee9de95e379" alt="Gata" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.4s">
+<img class="wb" src="/_blob/d6f9e6de0a9ba068a9dc90bb30d1fa9d" alt="Dhol" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.3s">
+<img class="wa" src="/_blob/41a64659ebe97c8ced6f7470833a24a5" alt="Backgammon" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.3s">
+<img class="wb" src="/_blob/bd4f647a25859d3ab6cb2b5e0cf6d1f5" alt="Duduk" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.5s">
+<img class="wa" src="/_blob/bb349919725645c12bd779ed76f175bf" alt="Church" style="width: 180px; height: 180px; object-fit: contain">
+<img class="wb" src="/_blob/4aa1ec3d488d85d4467cba1d123540df" alt="Carpet" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.2s">
+<img class="wa" src="/_blob/49b1463673ad5e109bd25bc076fdd733" alt="Khachkar" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.1s">
+<img class="wb" src="/_blob/3c7781589b1b1f232ab38e4e4f0f7fa6" alt="Ararat" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.4s">
+<img class="wa" src="/_blob/ed414472eb49ad84d0b79a9be36df3fe" alt="Brutalism" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.4s">
+<img class="wb" src="/_blob/1f232404cea7e39fb7c314e343853a69" alt="Jazve" style="width: 180px; height: 180px; object-fit: contain">
+<img class="wa" src="/_blob/d49bc557034efb16c007790599e1c857" alt="Dancing man" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.2s">
+<img class="wb" src="/_blob/fd5cfeb890f811167f0f0ec8fb31039e" alt="Car" style="width: 180px; height: 180px; object-fit: contain; animation-delay: -0.3s">
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

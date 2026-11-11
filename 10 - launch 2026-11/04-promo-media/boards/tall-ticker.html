@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" data-mode="media" data-playing="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Duduk / Vertical ticker · helloiam.am</title>
+<style>
+body{margin:0}
+@keyframes fall{from{transform:translateY(-2000px)}to{transform:translateY(0)}}
+.fall{animation:fall 3s steps(10) infinite}
+@media (prefers-reduced-motion:reduce){.fall{animation:none}}
+</style>
+<link rel="stylesheet" href="../board.css">
+<script defer src="../board.js"></script>
+</head>
+<body>
+<main class="artboard" style="--cut-period:4.2s">
+  <div class="media-track" aria-hidden="true"><video muted loop playsinline preload="none" src="../../01-objects/02-media-unsorted/hf_20260428_184651_e860c56e-48b3-479a-b8a6-cb621c347f9a.mp4" poster="../../01-objects/02-media-unsorted/helloiam_image_77.png"></video></div>
+  <div class="original" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 128px; line-height: 128px; letter-spacing: -0.01em">Hello, I am</p>
+<p style="position: absolute; left: 14px; top: 190px; margin: 0; font-size: 560px; line-height: 470px; font-weight: 700; letter-spacing: -0.055em; color: #ea5028">DU<br>DUK</p>
+<div class="fall" style="position: absolute; left: 250px; top: 0; width: 1000px; transform: translateY(-2000px)">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="Duduk" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/22-Duduk.png" alt="" style="display: block; width: 1000px; height: 1000px; object-fit: contain">
+</div>
+</div>
+</main>
+</body>
+</html>

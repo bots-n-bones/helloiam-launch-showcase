@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>8 AM, I am coffee — a day by the hour</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes jit{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+@keyframes show4{0%{opacity:1}25%{opacity:0}100%{opacity:0}}
+.jit{animation:jit 3.2s ease-in-out infinite}
+.c4{opacity:0;animation:show4 5.6s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.jit,.c4{animation:none}.c4:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<div class="c4" style="position: absolute; inset: 0; background: #f6c757; color: #0f0f10; animation-delay: 0s">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">8 AM,<br>I AM<br><span style="color: #ea5028">COFFEE</span></h1>
+<div class="jit" style="position: absolute; right: -80px; bottom: -120px; width: 940px; height: 940px"><img src="/_blob/3f82e441d1ed8d6f8d5d20d852bb8149" alt="Coffee" style="width: 100%; height: 100%; object-fit: contain"></div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM TIME</p>
+</div>
+<div class="c4" style="position: absolute; inset: 0; background: #c5342e; color: #ffffff; animation-delay: 1.4s">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">1 PM,<br>I AM<br><span style="color: #f6c757">KHOROVATS</span></h1>
+<div class="jit" style="position: absolute; right: -80px; bottom: -120px; width: 940px; height: 940px"><img src="/_blob/386b0af6a323736cf19b309abd36d3f2" alt="Khorovats" style="width: 100%; height: 100%; object-fit: contain"></div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM TIME</p>
+</div>
+<div class="c4" style="position: absolute; inset: 0; background: #557af7; color: #ffffff; animation-delay: 2.8s">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">6 PM,<br>I AM<br><span style="color: #0f0f10">NARDI</span></h1>
+<div class="jit" style="position: absolute; right: -80px; bottom: -120px; width: 940px; height: 940px"><img src="/_blob/41a64659ebe97c8ced6f7470833a24a5" alt="Backgammon" style="width: 100%; height: 100%; object-fit: contain"></div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM TIME</p>
+</div>
+<div class="c4" style="position: absolute; inset: 0; background: #0f0f10; color: #ffffff; animation-delay: 4.2s">
+<h1 style="position: absolute; left: 40px; top: 40px; margin: 0; font-size: 160px; line-height: 156px; font-weight: 700; letter-spacing: -0.03em">10 PM,<br>I AM<br><span style="color: #ea5028">WINE</span></h1>
+<div class="jit" style="position: absolute; right: -80px; bottom: -120px; width: 940px; height: 940px"><img src="/_blob/79d5f1b9c386535ce519812c2a638ff0" alt="Wine" style="width: 100%; height: 100%; object-fit: contain"></div>
+<p style="position: absolute; left: 40px; bottom: 40px; margin: 0; font-size: 24px; line-height: 24px; font-weight: 700">AM TIME</p>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

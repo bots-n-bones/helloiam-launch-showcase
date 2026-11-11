@@ -1,0 +1,19 @@
+@font-face{font-family:Instrument;src:url('../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:Instrument;src:url('../02-claude-session%202026-11-10/design-system/fonts/InstrumentSans-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
+:root{--ink:#0f0f10;--paper:#f7f3eb;--line:#aca59b;--red:#c5342e;--yellow:#f6c757;--space:clamp(1rem,5vw,5.25rem)}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--paper);color:var(--ink);font:500 1rem/1.5 Instrument,system-ui,sans-serif}
+a{color:inherit;text-underline-offset:.24em}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+.masthead,main,footer{max-width:1580px;margin:auto;padding-inline:var(--space)}
+nav,footer{display:flex;flex-wrap:wrap;gap:1rem 2rem;padding-block:1.3rem}
+nav{border-bottom:1px solid var(--line)}
+h1,h2,h3,p{margin:0}
+h1{font-size:clamp(4.2rem,13vw,10rem);line-height:.83;letter-spacing:-.08em;margin:clamp(1.5rem,5vw,4.5rem) 0 1.4rem;overflow-wrap:anywhere}
+.masthead p,section>p{max-width:60ch}
+section{border-top:1px solid var(--line);padding-block:2rem;margin-top:2rem}
+h2{font-size:clamp(2rem,6vw,4.8rem);line-height:1;letter-spacing:-.06em;margin-bottom:.45rem}
+.grid{margin-top:1.6rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:2rem 1rem;align-items:start}
+h3{font-size:1.4rem;line-height:1.08;margin:.35rem 0 .75rem;letter-spacing:-.024em}
+footer{border-top:1px solid var(--line)}

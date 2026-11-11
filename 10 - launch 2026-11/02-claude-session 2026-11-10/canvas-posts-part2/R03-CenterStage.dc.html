@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Object on colour, then its photo — the two never share a frame</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+@keyframes show6{0%{opacity:1}16.6667%{opacity:0}100%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-18px) rotate(1.5deg)}}
+.c6{opacity:0;animation:show6 5.4s steps(1) infinite}
+.float{animation:float 3.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.c6,.float{animation:none}.c6:first-child{opacity:1}}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #ffffff; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 150px; line-height: 150px; font-weight: 700; letter-spacing: -0.03em; text-align: center">
+<div class="c6" style="position: absolute; inset: 0; background: #ffffff; color: #0f0f10; animation-delay: 0s">
+<p style="position: absolute; left: 0; right: 0; top: 60px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Hello, I am</p>
+<img class="float" src="/_blob/d33d2aa046de0f9d38d50680e3f438b9" alt="Apricot" style="position: absolute; left: 220px; top: 320px; width: 640px; height: 640px; object-fit: contain">
+<span style="position: absolute; left: 0; right: 0; bottom: 70px; color: #c5342e">APRICOT</span></div>
+<div class="c6" style="position: absolute; inset: 0; background: #0f0f10; animation-delay: 0.9s"><img src="/_blob/85d8f72e96dc08cb35dd5011fec43b22" alt="Apricot tree" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: absolute; left: 0; right: 0; bottom: 70px">APRICOT</span></div>
+<div class="c6" style="position: absolute; inset: 0; background: #0f0f10; animation-delay: 1.8s">
+<p style="position: absolute; left: 0; right: 0; top: 60px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Hello, I am</p>
+<img class="float" src="/_blob/22e6b21d1e7d3241626cb648b70515cc" alt="Carpet" style="position: absolute; left: 220px; top: 320px; width: 640px; height: 640px; object-fit: contain">
+<span style="position: absolute; left: 0; right: 0; bottom: 70px; color: #ea5028">CARPET</span></div>
+<div class="c6" style="position: absolute; inset: 0; background: #0f0f10; animation-delay: 2.7s"><img src="/_blob/51544953d2a5a7a9820fc23ab0a34688" alt="Carpet pattern" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: absolute; left: 0; right: 0; bottom: 70px">CARPET</span></div>
+<div class="c6" style="position: absolute; inset: 0; background: #c5342e; animation-delay: 3.6s">
+<p style="position: absolute; left: 0; right: 0; top: 60px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 96px; line-height: 96px; letter-spacing: -0.01em">Hello, I am</p>
+<img class="float" src="/_blob/3574f861486d01a2a84c896b147cff6f" alt="Dolma" style="position: absolute; left: 220px; top: 320px; width: 640px; height: 640px; object-fit: contain">
+<span style="position: absolute; left: 0; right: 0; bottom: 70px; color: #f6c757">DOLMA</span></div>
+<div class="c6" style="position: absolute; inset: 0; background: #0f0f10; animation-delay: 4.5s"><img src="/_blob/8ba5da738b074045cec0f42358fbc04e" alt="Vine leaf" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"><span style="position: absolute; left: 0; right: 0; bottom: 70px">DOLMA</span></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-mode="media" data-playing="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nur · helloiam.am</title>
+<style>
+body{margin:0}
+@keyframes jit{0%{transform:translate(0,0) rotate(-3deg)}25%{transform:translate(10px,-8px) rotate(2deg)}50%{transform:translate(-8px,6px) rotate(-1deg)}75%{transform:translate(6px,10px) rotate(4deg)}}
+@keyframes pop1{0%{opacity:0}20%{opacity:1}100%{opacity:1}}
+@keyframes pop2{0%{opacity:0}35%{opacity:1}100%{opacity:1}}
+@keyframes pop3{0%{opacity:0}50%{opacity:1}100%{opacity:1}}
+@keyframes pop4{0%{opacity:0}65%{opacity:1}100%{opacity:1}}
+.jit{animation:jit .5s steps(1) infinite}
+.pop1{animation:pop1 3.2s steps(1) infinite}
+.pop2{animation:pop2 3.2s steps(1) infinite}
+.pop3{animation:pop3 3.2s steps(1) infinite}
+.pop4{animation:pop4 3.2s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.jit,.pop1,.pop2,.pop3,.pop4{animation:none}}
+</style>
+<link rel="stylesheet" href="../board.css">
+<script defer src="../board.js"></script>
+</head>
+<body>
+<main class="artboard" style="--cut-period:4.6s">
+  <div class="media-track" aria-hidden="true"><img src="../../01-objects/02-media-unsorted/helloiam_image_48.png" alt=""></div>
+  <div class="original" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #f6c757; color: #0f0f10; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<p style="position: absolute; left: 40px; top: 36px; margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 128px; line-height: 128px; letter-spacing: -0.01em">Hello, I am</p>
+<p style="position: absolute; left: -30px; top: 330px; margin: 0; white-space: nowrap; font-size: 620px; line-height: 520px; font-weight: 700; letter-spacing: -0.06em; color: #ea5028">NUR</p>
+<div class="jit" style="position: absolute; left: 190px; top: 300px; width: 700px; height: 700px">
+<img src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="Pomegranate" style="width: 100%; height: 100%; object-fit: contain">
+</div>
+<img class="pop1" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="" style="position: absolute; left: 60px; top: 250px; width: 150px; height: 150px; object-fit: contain; transform: rotate(-30deg)">
+<img class="pop2" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="" style="position: absolute; left: 870px; top: 220px; width: 190px; height: 190px; object-fit: contain; transform: rotate(40deg)">
+<img class="pop3" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="" style="position: absolute; left: 30px; top: 880px; width: 210px; height: 210px; object-fit: contain; transform: rotate(160deg)">
+<img class="pop4" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="" style="position: absolute; left: 850px; top: 900px; width: 130px; height: 130px; object-fit: contain; transform: rotate(-110deg)">
+</div>
+</main>
+</body>
+</html>

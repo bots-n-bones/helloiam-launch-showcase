@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-mode="media" data-playing="false">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wordmark · helloiam.am</title>
+<style>
+body{margin:0}
+@keyframes hop{0%{transform:translateY(0) rotate(-4deg)}25%{transform:translateY(-14px) rotate(3deg)}50%{transform:translateY(0) rotate(-2deg)}75%{transform:translateY(-8px) rotate(5deg)}}
+@keyframes show6{0%{opacity:1}16.66%{opacity:0}100%{opacity:0}}
+.hop{animation:hop .48s steps(1) infinite}
+.c6{opacity:0;animation:show6 3.6s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.hop,.c6{animation:none}.c6:first-child{opacity:1}}
+</style>
+<link rel="stylesheet" href="../board.css">
+<script defer src="../board.js"></script>
+</head>
+<body>
+<main class="artboard" data-board="wordmark" style="--cut-period:5.2s">
+  <div class="media-track" aria-hidden="true"><img class="c6" style="animation-delay:0s" src="../../01-objects/02-media-unsorted/helloiam_image_48.png" alt=""><img class="c6" style="animation-delay:0.6s" src="../../01-objects/02-media-unsorted/helloiam_image_16.png" alt=""><img class="c6" style="animation-delay:1.2s" src="../../01-objects/02-media-unsorted/helloiam_image_76.png" alt=""><img class="c6" style="animation-delay:1.8s" src="../../01-objects/02-media-unsorted/helloiam_image_100.png" alt=""><img class="c6" style="animation-delay:2.4s" src="../../01-objects/02-media-unsorted/helloiam_image_66.png" alt=""><img class="c6" style="animation-delay:3s" src="../../01-objects/02-media-unsorted/helloiam_image_9.png" alt=""></div>
+  <div class="original" style="position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #c5342e; color: #ffffff; font-family: 'Instrument Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<div style="position: absolute; left: 40px; top: 470px; display: flex; align-items: baseline; font-size: 264px; line-height: 250px; font-weight: 700; letter-spacing: -0.045em">
+<span>hello</span>
+</div>
+<div style="position: absolute; left: 40px; top: 720px; display: flex; align-items: flex-end; font-size: 264px; line-height: 250px; font-weight: 700; letter-spacing: -0.045em">
+<span>iam</span>
+<span class="hop" style="position: relative; display: block; width: 200px; height: 200px; margin: 0 6px 6px 10px">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/07-Pomegranate.png" alt="Pomegranate" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/08-Apricot.png" alt="Apricot" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 0.6s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/16-Gata.png" alt="Gata" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.2s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/39-Sun.png" alt="Sun" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 1.8s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/12-Matnakash.png" alt="Matnakash" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 2.4s">
+<img class="c6" src="../../02-claude-session%202026-11-10/emoji-cutout/50-Ghapama.png" alt="Ghapama" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; animation-delay: 3s">
+</span>
+<span style="color: #f6c757">am</span>
+</div>
+</div>
+</main>
+</body>
+</html>
