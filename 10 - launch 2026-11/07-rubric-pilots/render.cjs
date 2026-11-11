@@ -19,7 +19,7 @@ async function capture(page, item, index, dest, options = {}) {
   url.searchParams.set("id", item.id);
   url.searchParams.set("frame", index);
   if (options.reel) url.searchParams.set("reel", "1");
-  const width = item.kind === "board" ? 540 : 1080;
+  const width = 1080;
   await page.setViewportSize({ width, height: options.reel ? 1920 : width * 1.25 });
   await page.goto(url.href);
   const problems = await page.evaluate(async () => {
@@ -77,13 +77,11 @@ async function renderItem(browser, item, scratch) {
   await mkdir(dest, { recursive: true });
   const page = await browser.newPage({ deviceScaleFactor: 1 });
   try {
+    for (const [index] of item.frames.entries()) {
+      await capture(page, item, index, path.join(dest, String(index + 1).padStart(2, "0") + ".png"));
+    }
     if (item.kind === "reel") {
-      await capture(page, item, 0, path.join(dest, "01.png"));
       await renderVideo(page, item, dest, path.join(scratch, item.id));
-    } else {
-      for (const [index] of item.frames.entries()) {
-        await capture(page, item, index, path.join(dest, String(index + 1).padStart(2, "0") + ".png"));
-      }
     }
     console.log(item.id + " · " + item.kind);
   } finally {

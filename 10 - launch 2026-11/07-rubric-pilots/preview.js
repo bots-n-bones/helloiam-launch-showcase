@@ -20,6 +20,8 @@ function renderCard(item, grid) {
   cover.height = 1350;
   cover.loading = "lazy";
   node("span", item.title, summary, "pilot-card-title").lang = "en";
+  if (item.edition === "illustrated") node("p", "Версия с эмодзи · фото не используются", details);
+  if (item.kind === "board") node("p", "Раскадровка · редакционный черновик", details);
 
   if (item.kind === "reel") {
     const video = node("video", "", details);
