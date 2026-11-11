@@ -1,0 +1,11 @@
+html.access-locked body > :not(#access-gate){visibility:hidden!important}
+#access-gate{position:fixed!important;inset:0!important;z-index:2147483647!important;visibility:visible!important;display:grid!important;place-items:center!important;overflow:auto!important;padding:24px!important;background:#f6c757!important;color:#0f0f10!important;font:16px/1.4 Arial,sans-serif!important}
+#access-gate *{box-sizing:border-box!important}
+#access-gate form{width:min(100%,420px);padding:32px;background:#fff;box-shadow:0 14px 40px #0f0f1026}
+#access-gate h1{margin:0 0 16px;font-size:42px;line-height:1;font-weight:800;letter-spacing:-.05em}
+#access-gate p{margin:0 0 24px}
+#access-gate label{display:block;margin-bottom:8px;font-weight:700}
+#access-gate input{display:block;width:100%;height:48px;padding:10px;border:2px solid #0f0f10;border-radius:0;background:#fff;color:#0f0f10;font:inherit}
+#access-gate button{width:100%;height:48px;margin-top:16px;border:0;border-radius:0;background:#c5342e;color:#fff;font:700 18px Arial,sans-serif;cursor:pointer}
+#access-gate button:disabled{opacity:.6}
+#access-gate #access-error{min-height:1.4em;margin:12px 0 0;color:#a02520}
