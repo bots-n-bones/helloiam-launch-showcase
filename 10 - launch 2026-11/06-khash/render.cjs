@@ -94,7 +94,7 @@ async function render(browser, genre, scratch) {
 }
 
 (async () => {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ executablePath: process.env.KHASH_CHROMIUM });
   const scratch = mkdtempSync(path.join(tmpdir(), "khash-render-"));
   try {
     for (const genre of genres) await render(browser, genre, scratch);
