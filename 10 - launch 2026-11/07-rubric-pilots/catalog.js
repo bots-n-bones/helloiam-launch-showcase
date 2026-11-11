@@ -235,20 +235,6 @@ const pilotCatalog = [
 // Illustrated editions use the available transparent objects in place of missing photos.
 // Original frame definitions above retain the photo references for future restoration.
 const illustratedFrames = {
-  "market-mountain": ["17-Basket-of-fruit", "08-Apricot", "11-Grapes", "49-Restaurant-plate", "33-Mountain", "34-Ararat"],
-  "green-plate": [null, "10-Green-Plate"],
-  "matsun": [null, "04-Matsun", "10-Green-Plate"],
-  "dolma": [null, "09-Tolma", "09-Tolma", "49-Restaurant-plate"],
-  "love-lavash": ["01-Lavash", null, null, "01-Lavash", "01-Lavash"],
-  "say-hello-wine": [null, "11-Grapes", "03-Glass-of-Armenian-wine"],
-  "apricot": [null, null, "17-Basket-of-fruit"],
-  "apricot-season": ["08-Apricot", "08-Apricot", "17-Basket-of-fruit", "08-Apricot"],
-  "yerevan-nights": [null, "36-Street-lamp", "49-Restaurant-plate"],
-  "hidden-courtyard": ["24-Church", "28-Gyumri", "37-Balcony"],
-  "wine-lover": [null, "06-Cup-of-Armenian-coffee", "11-Grapes", "03-Glass-of-Armenian-wine"],
-  "taxi-lunch": [null, "48-Armenian-car", "02-Khorovats"],
-  "hello-bloggers": [null, "37-Balcony"],
-  "hear-duduk": [null, "22-Duduk"],
   "tonys-drive": [null, "48-Armenian-car", "38-Brutalism", "37-Balcony"],
 };
 for (const item of pilotCatalog) {
