@@ -1,0 +1,6 @@
+services:
+  showcase:
+    build: .
+    ports:
+      - "127.0.0.1:8774:80"
+    restart: unless-stopped
