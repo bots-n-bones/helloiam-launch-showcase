@@ -1,0 +1,12 @@
+services:
+  showcase:
+    networks:
+      - caddy-network
+    labels:
+      caddy: test.dev.int.tuttibots.com
+      caddy.reverse_proxy: "{{upstreams 80}}"
+      caddy_ingress_network: caddy-network
+
+networks:
+  caddy-network:
+    external: true
